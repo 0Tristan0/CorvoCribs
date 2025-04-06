@@ -1,0 +1,14 @@
+{
+    "id": 1234,
+    "firstName": "",
+    "lastName": "",
+    "rating": 4,
+    "positive": [
+        "Super friendly about billing cycles.",
+        "Pet friendly!"
+    ],
+    "negative": [
+        "Refused to fix my utilities for WEEKS.",
+        "Never mentioned any noisy neighbors..."
+    ]
+}

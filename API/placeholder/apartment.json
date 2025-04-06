@@ -1,0 +1,25 @@
+{
+    "id": 1234,
+    "title": "The Metropolitan",
+    "timePublished": "2023-08-20'T'13:20:10*633+0000",
+    "address": "",
+    "furnished": true,
+    "pricePerMonth": 1000,
+    "leaseTermLengthMonths": 12,
+    "bedrooms": 2,
+    "baths": 2,
+    "area": 1500,
+    "images": {
+        "hero": "https://abc.com/hero.jpeg",
+        "exterior": [
+            "https://abc.com/exterior.jpeg",
+            "https://abc.com/exterior.jpeg",
+            "https://abc.com/exterior.jpeg"
+        ],
+        "interior": [
+            "https://abc.com/interior.jpeg",
+            "https://abc.com/interior.jpeg",
+            "https://abc.com/interior.jpeg"
+        ]
+    }
+}
