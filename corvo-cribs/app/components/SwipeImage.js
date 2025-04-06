@@ -198,6 +198,16 @@ export default function SwipeImage() {
         },
     ]
 
+    useEffect(() => {
+        const dislikedIDs = localStorage.getItem('hasOnboarded')
+        if (hasOnboarded === null) {
+            localStorage.setItem('hasOnboarded', 'false')
+            setShouldShowOnboarding(true)
+        } else {
+            setShouldShowOnboarding(hasOnboarded === 'false')
+        }
+    }, []);
+
     const [currentIndex, setCurrentIndex] = useState(db.length - 1)
     const [lastDirection, setLastDirection] = useState()
     // used for outOfFrame closure
