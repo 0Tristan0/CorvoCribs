@@ -1,8 +1,9 @@
 import { Jua } from "next/font/google";
 import "./globals.css";
 
-import Navbar from "./componenets/Navbar";
+import Navbar from "./components/Navbar";
 import Onboarding_1 from "./onboarding_1/page";
+import OnboardingGate from "./utils/OnboardingGate";
 
 const jua = Jua({
   weight: "400",
@@ -22,8 +23,7 @@ const handleNavClick = (index) => {
 };
 */
 
-// Temporary variable
-const isOnboarded = false;
+
 
 export default function RootLayout({ children }) {
   return (
@@ -31,8 +31,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${jua.className} antialiased m-3`}
       >
-        {isOnboarded ? ( <Navbar /> ) : (null)}
-        {children}
+        <OnboardingGate>
+          <Navbar />
+          {children}
+        </OnboardingGate>
       </body>
     </html>
   );

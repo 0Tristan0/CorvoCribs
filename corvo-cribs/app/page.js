@@ -1,4 +1,4 @@
-import SwipeImage from "./componenets/SwipeImage";
+import SwipeImage from "./components/SwipeImage";
 
 export default function Home() {
   return (

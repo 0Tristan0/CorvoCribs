@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Onboarding_1() {
+export default function Onboarding_3() {
   return (
     <div className="h-screen ">
       <img src = "/icons/Background.svg" className="absolute w-full h-full object cover" alt= "Bakcground"></img>

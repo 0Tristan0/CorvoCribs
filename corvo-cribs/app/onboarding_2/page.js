@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Onboarding_1() {
+export default function Onboarding_2() {
   return (
     <div className="h-screen">
       <div className="pt-15 flex flex-col items-center justify-between h-full gap-y-5  ">
