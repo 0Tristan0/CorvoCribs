@@ -12,7 +12,7 @@ async function getGroqChatCompletion(apartment) {
             "content": [
                 {
                     "type": "text",
-                    "text": process.env.PROMPT
+                    "text": `${process.env.PROMPT} DATA: ${apartment.}`
                 },
                 ...apartment.images.additional.map(image => ({
                     "type": "image_url",

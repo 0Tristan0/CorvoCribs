@@ -1,25 +1,4044 @@
-{
-    "id": 1234,
-    "title": "The Metropolitan",
-    "timePublished": "2023-08-20'T'13:20:10*633+0000",
-    "address": "",
-    "furnished": true,
-    "pricePerMonth": 1000,
-    "leaseTermLengthMonths": 12,
-    "bedrooms": 2,
-    "baths": 2,
-    "area": 1500,
-    "images": {
-        "hero": "https://abc.com/hero.jpeg",
-        "exterior": [
-            "https://abc.com/exterior.jpeg",
-            "https://abc.com/exterior.jpeg",
-            "https://abc.com/exterior.jpeg"
-        ],
-        "interior": [
-            "https://abc.com/interior.jpeg",
-            "https://abc.com/interior.jpeg",
-            "https://abc.com/interior.jpeg"
-        ]
-    }
-}
+[
+	{
+		"id": "4e9c879a-8051-4790-bf62-ec9a7d3de67a",
+		"title": "The Vicinity",
+		"timePublished": "2025-04-06T18:40:47.765Z",
+		"address": "1445 SW A Ave, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/a4c24d7340f402af40d8354379e650b6-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/a4c24d7340f402af40d8354379e650b6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/35bd9244e7efe8830ef4522a27cc5e45-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/20f909f12293e80b82cd9e0d2769e008-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d5f78ddc6d57ffa5b9933e100f6ef779-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3b88aaf89c0dd9d2c8b6543241eab249-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ca3a8619543a91407822ed2dd73d5a3b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/df44a2105a34c276880cd41a7229af5e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/498b510d7eb4ca09113ac277523f1369-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/90b53e3387ad227596c1ead19ecec016-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5c12d66e7a3d5b5a283f891cb2e48d21-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/535a662adfeee09b889fd0c0e7b16d4c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/dfe7f65320897325c41c0def6108db0d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5f10c5e3712d5c27922a814bce8ff21e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/33c14f0cfe980cdbd77c82e9d6a82e30-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f9442b0988c1eacd1816a1b2c03e1a02-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9e27365eea70a4846304a524d3e0c2eb-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f301ae6e13068a3e24d9aa5a458b9990-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7f092522caf2f6753fecf7586f14bc5f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e7c54245c4378fc93f52b19dc68990c9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3162e9d4da3586a2248c63d664281f05-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4b817b4d70a828a4eddd2bf4325e0504-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "d7703f3f-ab77-4c2b-be25-abf349806462",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-06T18:40:47.765Z",
+		"address": "Cascade Pointe, 1315 SW E Ave, Corvallis, OR 97333",
+		"furnished": false,
+		"pricePerMonth": "$1400",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 1,
+		"bathrooms": 1,
+		"area": 700,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/d6e21a2116f33bf45c159567c66a5388-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/d6e21a2116f33bf45c159567c66a5388-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b1eb0177f37d0b84ca9385b779558003-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8bd9529fb367416561410ba84442f697-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/aad5ca97bbe199eb91dc29dd33058d84-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0be70cf1bfb82a1349d9ef8dc0a2a38c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9a3154df9df4a243dec518de4291aeba-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5d013e5d6c0e9302742fa8aaaaf34ef1-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "4cd11739-9ec3-4b3c-ae7f-cee904a7ea7a",
+		"title": "BEAUTIFULLY RENOVATED STUDIO'S... just blocks away from Campus",
+		"timePublished": "2025-04-03T18:40:47.765Z",
+		"address": "760 NW 21st St, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/ccae67a8621e81306a0b49fc1f1309a7-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/ccae67a8621e81306a0b49fc1f1309a7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0c0ed95e67406255855f22cd035473d6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/915b635ef36eb73eca385bcd085e18db-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/393d26b51722c4fb3acdc856de14ab17-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/584cec686b50824655512cd78f98f2e1-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e4f1bdaa374b3ce825a975592b124459-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/87a7aa38f754c3c406020257628cbf21-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/356c473bd9aced2551ee17b29b8590b2-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ae81896babf1a6efc9ef1f2691b2127d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/216fdecb2f4f5553d4b38b6dc7383c20-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/637764abc99e1c22857e9d06b3b93bf4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e50c0348914d03d55fb78b94c1ccf8cd-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6fa26d22d9b50fcb06fc5891b8232575-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/518a2e54763baf649c0f6b46bf321ac6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/43b8153b574499a626225bf6c7c8079c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7871b50af8b3ed0aca5a829251df5695-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/df79444b2a2b856ebbb94c377ea1cea4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/17a55263173a370c41e373de5e13d102-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1806623e868f34419b872ad1562579d7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/374dd661649c7e0b248a1f360fecce4a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e868e2df7572db91df384981c313156d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f6ed8262acbe003c2fd36038bc5d3575-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5ac5946514beb3ab2feccb7a3e388719-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/68fc17e1c25155409ae22f5205970fe7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3e662cc4e927dd756d3507e394e6c94b-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "336e1c3e-3ec4-42b0-9ba6-fa761ce393d0",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-03T18:40:47.765Z",
+		"address": "222 NW 21st St, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1295",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 1,
+		"bathrooms": 1,
+		"area": 300,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/48e20163b818a18aa408cfc8440cba58-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/48e20163b818a18aa408cfc8440cba58-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a573cee385b4b11ed8ea45ad188d143e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7c0477655305499d022fd9ebcef37cd9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4a5a13ce42a9421540cf6992b055f3e9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/534f9dc5308e9c7c554445c65decc355-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/af1e18a5a2c650ff06c1b1b039c34713-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e48023e749a55aafb2af5d69a5cfa019-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4d59ce55b5af1df551c9b61c97e860c9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/217bfc3cefae2c5599bd6f678838d3f7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2e51bd043b477488db4c96008793684a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3943074aa2b015abf4867be2badc58e9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1866fac70e13810940cf0f0fab3e19e0-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "c4968579-41aa-474c-ab9a-34a1223b50e3",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-01T18:40:47.765Z",
+		"address": "381-426 NW 11th St, 426 NW 11th St APT 11, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1350",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"area": 600,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/51301d4b829800fedada5917bbdea27d-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/51301d4b829800fedada5917bbdea27d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c832fd0f3ac8b1d7803fdbd21e399440-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/28843f808248474fdf3885685cb57638-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7f714ba548005a5269656ad0342a80ad-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1f40764bb2ec572e24837c13296889b4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ca3cbab1ce42ff9340c5ccb28736d2ab-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8bdd7975314d5a0b321aec835a3e2a13-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b620986a026cf7a8a4319a59c6ba7a9a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/cdc2dfcef57f08c331998ab3a6391d00-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2043dfd5885e830edb37ec6d2d911681-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "1ca28f7c-ed66-408f-97d0-cfa89a4cc287",
+		"title": "House for rent",
+		"timePublished": "2025-03-23T18:40:47.765Z",
+		"address": "125 NW 14th St, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$2199",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"area": 1200,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/f6f66861493ef69e565f33565e18cf45-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/f6f66861493ef69e565f33565e18cf45-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/bc0034f4c36a0915a7eddf5337ecbe74-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/495b4f5a466eb1be36fa3473a036e932-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3d5eecd21bf101c64a7fd0a1ccc807b1-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f8447d5cdb0674e8dd085cfb4562c453-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8b1ecd2139d6b2ef178a1d649352c010-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ae45c182740d2f32e3f536e0a9575ee4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/812f0b5350d3af7d9bebb07c6bc20cfd-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4eeee56f808930180195957f36fdcaf4-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "86f289ed-e47e-4cbb-ab2a-69b1d81170ea",
+		"title": "House for rent",
+		"timePublished": "2025-04-06T18:40:47.765Z",
+		"address": "835 SW 10th St, Corvallis, OR 97333",
+		"furnished": false,
+		"pricePerMonth": "$4485",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 5,
+		"bathrooms": 3,
+		"area": 1664,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/98574f4e581f6511a828d94f345b511a-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/98574f4e581f6511a828d94f345b511a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/34600ed8c3a6af2001fd32565c598223-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/fbe9b1d4e4c1e292b690ccb2f8b3aae7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/756adb84da288bd40370f69f2d4a9a56-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a2d8ce60e42c8fa9827dc15cbda4b28d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/57230e6a2f5954e0aebec753e73c4ccf-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9944d9a5e308256eeb2f2e4c7e0f1c0e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f43a0815f322648aa38ade0388af845b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/91606c32754beb6e200e4effeecb9df4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f16a7b6f87eea2d8042bb6ca3a93608a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/951bd803952f7072545c47ebdd2eb379-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/54045e044b30b852dd003e0d18b8ef18-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f7ba568b224cf1d24c5a755ebef66b5f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/22bd8b0f9496b6d2c1947a1328fe0d6f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e19aae33fd5205b90a4dc476bee5d401-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/08776fffcee8bc0cbf41b3eacd36ffbe-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/45c9b82a8cc9ac23872137c0df61e614-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ea31c27653a343c56fc29aa162792f23-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/40cdc5aef2e34e851384dfdf30a5f8df-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/058e4cc4a0363cc3efb7d180d670c09d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d582f2c74488575a640fedb54484bc8d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a7593cf34874d881346126302ecbb7f6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/936b150cf7bfff788f6de2a03047c968-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "de94c4ce-a309-4d22-b85a-b0608a1d02b2",
+		"title": "For Rent",
+		"timePublished": "2025-04-06T18:40:47.765Z",
+		"address": "115 NW 15th St, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/89ad4a86dd1e3863186ac73226bfed23-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/89ad4a86dd1e3863186ac73226bfed23-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/843337b8ee780e21255618fb9092e2ea-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/cbf6a0c1a4f8403109b5236e759ef5e3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/735336257d2aa87d2ddd3a8947c5124e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/bac15c428dbae6d92dd721a739b28892-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/af1e18a5a2c650ff06c1b1b039c34713-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1866fac70e13810940cf0f0fab3e19e0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b2c93ae91a9992c77492e89b5f6170c6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/83efb65c326b0fae5ab0c47561384ab1-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/540b8fdf0638f310f89843d2a168ef7c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/fbfb8fe01995bd898555347c72db9032-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7ca2c56783ba325646ae9d53deaf5040-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "2510889e-e386-439e-9dfe-f7f90f86cbf7",
+		"title": "Apartment for rent",
+		"timePublished": "2025-03-22T18:40:47.765Z",
+		"address": "750-780 NW 11th St, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1695",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"area": 920,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/7681101f0f0999f39bb181a0cc054b82-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/7681101f0f0999f39bb181a0cc054b82-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a41d07e6922710c3b46bc9843c955d33-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6b043f07d92f208acb01e58f1d2cdc7d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/39e27bd18452304a559f61092e1f9765-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/72ea9035748dfd2e6d5e93d4c589f729-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3834bafed7d58568d7d2e171f3fe2ee3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/70b22a14778b38c7c78e1bfd8fd498ab-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/549c88deeda3d1c3f2c71c074eb8dfdc-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "7a2e3529-9a5e-4aba-b82e-656d733cc3d8",
+		"title": "House for rent",
+		"timePublished": "2025-04-03T18:40:47.765Z",
+		"address": "2013 NW Tyler Ave, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1800",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"area": 864,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/737d23a7a2f600ffe2d1b0b19670bfba-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/737d23a7a2f600ffe2d1b0b19670bfba-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e47d39bbb9c5fc37ab41e67453669b54-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f2b28ba93629e852c02eb9d3f83ebfb2-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d9b2e6f590560dce9693207e4e14bdff-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/27a09a77039e2103c042da5f78529dc2-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b9bf3f82d156a6779301b030c4ca7a6d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/fa4c626e47aad2e53e1b36ead2bcc48f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6e1374ebfa7874c56d7be1a4aac07f0a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6b00b8619ff690d1ab13e71454bad960-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1e0b16e2d2d5710fd8eca8e0a1d639d1-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "d17256da-1483-46fc-9f4a-a4ffebc53e30",
+		"title": "Apartment for rent",
+		"timePublished": "2025-03-22T18:40:47.765Z",
+		"address": "205 NW 16th St, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1595",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"area": 720,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/9c62b4043ac3c0703e5c96d183739fdb-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/9c62b4043ac3c0703e5c96d183739fdb-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6040f015530cbb7ebacae439ca7baf42-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/be9610d9b6699aee18c6533487de36c9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2ee5ba3935ca889d437191f2e7e63d23-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1b47f3c3e4942ff0872ae2bae1b7edad-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/80aa1357707d142d66c4acafe84124a8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0c5ed06d1b799cd4bf709b005ac6943c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ffc7bc54a3067530edf19181cc60e138-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a5a0d650f8d456026d59d5ba25aef7cb-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7497d2fe5b1752d774b1cff5a20ddc8d-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "a0c200ab-12cb-448a-b652-6fc11b33ec74",
+		"title": "Apartment for rent",
+		"timePublished": "2025-03-28T18:40:47.765Z",
+		"address": "Pet Friendly 6-Plex Just 3 Blocks From OSU Campus, 1717 NW Harrison Blvd #5, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1350",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"area": 850,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/74494eeb42bdbcb0b3cbcb662df154a7-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/74494eeb42bdbcb0b3cbcb662df154a7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5c6381b091f168b9fc416831a6ab45e0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5ece5824bbe1a0f31aff5a8ca96e778e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f6f297563fd1c108c5003b779481e604-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/514a02df05d64d1c6c748d72f2675d9d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/66db8305d90c337e5f1ca82d6c95b56f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/18ccef89ec572bd96410c754e93d81f8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5d8592bfe4f337a8f30dc7a80121fa6d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8c6837e996ca92e0fd27ef3d5b6d6ae1-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0787f82830b4833e49fbc5eadb1091aa-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ab1d25f9fd8a3d62667611d6670fe59b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6ce823e430b62dd91f6d15b429435903-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/92ccbfbfb60b72c4ff04fb6e64dd7467-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/29ebf799d3965c1093f1db0989cbf191-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e1d2a8fee9e9f22da76849783b1c5889-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "dbd907c3-41b5-4c1f-8dde-0f1a372c350d",
+		"title": "Apartment for rent",
+		"timePublished": "2025-03-28T18:40:47.765Z",
+		"address": "246 - Monroe Court - 753-761 NW Monroe Ave. & 101-103 NW 8th St., 753 NW Monroe Ave #10, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$995",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 1,
+		"bathrooms": 1,
+		"area": 600,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/bd3b527c2e7e02c853a5bfd2d6644c67-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/bd3b527c2e7e02c853a5bfd2d6644c67-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/62e2351c9f9fe8ed7e11c37ed0c94b86-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f1cbd0d2d923bc064f4c278a37a0bb99-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ea6a8178b153213ec97a62e42d902e73-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/550cbeee9557f98145bedf90088dff43-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "120595b8-09bc-4d49-85fc-32541a514fc4",
+		"title": "Apartment for rent",
+		"timePublished": "2025-03-25T18:40:47.765Z",
+		"address": "344 NW 12th St #1-4, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$2395",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 3,
+		"bathrooms": 1,
+		"area": 1000,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/7a5a4aa20283a62fe4d27fe343514296-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/7a5a4aa20283a62fe4d27fe343514296-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d7a68dcdbc05e59c6b67fd34a55273cd-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/72027237ddca828b7c8e8806bf681f47-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7b4a114286c427864c76c43d53d07961-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/913e3a47e9969351fe63ff0623f6935d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6bae386825db7492614583e3edcc0b1c-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "4ef22a73-e09b-4773-8b84-e94e6c9e633e",
+		"title": "Apartment for rent",
+		"timePublished": "2025-03-27T18:40:47.765Z",
+		"address": "BEC-Johnson Duplex, 3215 & 3223 NW Johnson Ave #3215, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$2295",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 4,
+		"bathrooms": 2,
+		"area": 1430,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/310abb3b00a09f7c3418d1ec82e2eee2-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/310abb3b00a09f7c3418d1ec82e2eee2-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1b054e30fdab53648dffe9935aba21ab-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7ea31dbecf35820560fac8c41994ec29-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/81ae183f88ba28ea6522dcb544ccc901-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/40aec786ba4bb40098813c342b20e30c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1d35660c409f48347cec706e432a4c72-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/608e1fec4a8076925f8b5e291fc20584-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8e37d3a041f90baa68d23fc30a7da2f7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6923cc1e6a0acd58a35f7544e037d717-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d22d5f5f31b177977387adb2b1255810-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4685d19db9488e0e5bef0d791a0ed834-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0ea32874da7f645fd4a950b127296635-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7e3de8f3288752e2cc09975ce635937d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/978cb85ee8b6e2350b2dccb43dd70289-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2fd97e430bc150222d0765225b7df346-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f3e1ba0909b40d8acbbe6217b9abb510-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2dc9026da6a04f86c088a2c5afaf5c9e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d9b5ebb839170790274911f5272535e6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/64da1ea9a8b5a3c1fbdacf9f8e7e31c5-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/68795af3fd6afa49226ffa6b4e152090-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c9c6a14e4810eedbd5c0091a0f33d8f4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4d064b0a74215b1c1ecb3a5f27bc632c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0432561e8c845be804d76fbc0988ec7a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0287faca85089dc38c72d84bf9e9c9fd-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "63df1deb-7f2d-411a-83f6-e1c2bd986a75",
+		"title": "Apartment for rent",
+		"timePublished": "2025-03-20T18:40:47.766Z",
+		"address": "947 NW Fremont Ave, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1600",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"area": 1055,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/9a7780d75cb23cec87cd206ec1df7ca5-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/9a7780d75cb23cec87cd206ec1df7ca5-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f78dfbab41ef7fdfca77764ae7fcdf6a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/825bcd8cfff783d0dfaab1aa1023568e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/855cf5d3720660a6331a3d843ee0ce9b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a02b79f954828823b9497cf7eb7dfd6b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a3039aee62b3e28ed30c0e2eb81eb729-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/23171d84d0fbcdfd2f5e5b8097f400ec-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8f3765addb4d327042f6fe86e0d71ddf-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5408db9e92432f2c36c3a5f2ac6ff030-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a1147f4673d1950145724ff95e1885dc-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d37a97971ef70f97dc2f6649084da9af-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/49c9733a05e53eda0976fcc28ade2c4a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/cbf5d8d6bfaf9cc9498f0df2c35c8249-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4e8d32e0d1c4f524f2e956023ab37610-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1500b986daa064117ba658009567192d-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "0637cd04-bb09-4371-a00f-87f26ef46aa6",
+		"title": "For Rent",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "2615 NW Harrison Blvd, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/ab8b6d25b20aaaee3e9817f0686b8486-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/ab8b6d25b20aaaee3e9817f0686b8486-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c0503cc1138dffccd9efefdd30bb5781-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/abf06ed2f592cb4c8ebfe803b87ffb42-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8338b0e7243d54ebdfcca7fc31145ed6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e8cbddabe8078801909e0a304e08b608-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1ce909f8d83c48083bf72c4e49f1b5db-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c9837b13a9af76dd2612728fff4d87f5-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/db18cc48b23356d618843fc9f26b60fd-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3483659d61ed51d60b5b4c158ad82c32-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b51391a859db57d8171e7c4df742146a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1866fac70e13810940cf0f0fab3e19e0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/99a5154a7e6c4f594952a94a815378c4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/20d570f3082150ae9e4b04c89178c824-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3abc7438dcf9474e19f1c4270830f8fc-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a682c2f28681ae4d776c00632b9981a2-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/bf2eaa2f879db303e282bc06176d62a7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5f4769676ba4da902ae887f2bfa24f9a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/52d317903ef676b6ebcd1802c7317363-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c5f42ec09f056a469a3ff580e48dbe77-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "4121705a-720a-4e1a-a4c7-bd920b513e38",
+		"title": "House for rent",
+		"timePublished": "2025-03-31T18:40:47.766Z",
+		"address": "433 NW 33rd St, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$3875",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 5,
+		"bathrooms": 4,
+		"area": 2368,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/187fde39b2c66c81d27ba663a52b2869-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/187fde39b2c66c81d27ba663a52b2869-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/36ffc07d22946877acd8e2e2499e18dd-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/373220513d08349f0732d2a22531403b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/890671aa50b6d7e770255468b2cb0bc6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f5ac1475aab640b4aa5b164930b55533-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0e7d7235798861766b3cdbe3d17be945-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/db8ebb6831954b57d798eb293d178135-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/91d0d055626b1a4d48574c960097d72b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c0ec3297e9c3ad8fc765f1436ec36d25-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e427905cc8c2a77198a79081513c9f42-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2ed2c1b08f1310543e282ac3ca6c8dea-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "bb2f236f-0ab6-4d6e-90ff-e11f7d7a93e2",
+		"title": "Apartment for rent",
+		"timePublished": "2025-03-15T18:40:47.766Z",
+		"address": "112A-146 NW 12th St, 146 NW 12th St APT 8, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1550",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"area": 600,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/1db55f63cdf0969c0e103e58b306393a-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/1db55f63cdf0969c0e103e58b306393a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/75730d496806949eab05296d3b203521-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/dd09f5cd85c1c9c925aca57ec6ff7d28-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/84073b97a6a1cf6391d766b1eb913def-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/fdc19d080a7c6c552ceeb9feb9b6e70a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1bf9bfd50513e01e6726eb53a726e87f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/97909285435de98bd8ad1878cbd2a897-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6e5ee761d7d158b032088dbb8cecccea-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f76cfaa13b20d6904b611c0744c6ad0f-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "c2cfb1e8-eddd-4e7b-83f1-5c54cb883766",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "(undisclosed Address), Corvallis, OR 97333",
+		"furnished": false,
+		"pricePerMonth": "$1699",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 2,
+		"area": 980,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/b9480ff9f474e0da1417b1602004951f-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/b9480ff9f474e0da1417b1602004951f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/096fa4457e34ef7a70ea737ee97e04c9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/727a8fbacfca14da7059a2f6c0739d8b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ef66224291b5684f4f441dd6fdb36940-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e5106d89852199d1f225dc8fbac0317d-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "8341ee85-03d2-4642-8eac-0856282c056d",
+		"title": "Apartment ~ Walk to Campus ~ Cat Friendly",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "725 SW 13th St, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/91a6ea645dc1403032bc9c72ace11022-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/91a6ea645dc1403032bc9c72ace11022-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/624f1c383b5ae2a625838f55044d9fc2-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1dbae0a7b5d745fe58c14f0993f711e9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/22587cbbf658ff169fce43148780fb0f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/bb19dbb483da7c3cebb7ef20699967f6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/05aa588a2ea4612e9316235095f41af4-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "1783d837-0bfa-4dab-94a4-3e62c0cb5153",
+		"title": "Apartment ~ Walk to Campus ~ Cat Friendly",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "111-113 NW 11th St, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/0aaf8a0a09789cbeef9183f99b1d7e3c-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/0aaf8a0a09789cbeef9183f99b1d7e3c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d911ecde4e9b1966160e8dd391728a76-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9ce00cd20c3228cb75206a32e7757d7e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/98a30f52ffb940ca9efe3a78aaf56559-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/fde7dfb08f6a5cb9fbaeb70c79c193ab-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9cbd1269fd692e6ff2ed45cbab18e9c8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/40bb3a8465a4b495f39dfe011ffdb136-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "c7267f87-f46b-468e-9b2e-0bbdb60171a3",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "Ivory, 202 NW 10th St APT 101, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1395",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/1f02542983c518362f13ca2aae4e507f-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/1f02542983c518362f13ca2aae4e507f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/74792c64a94b4ad86743ea6ce955ff84-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/83a95af521c8fe12a8cb562d3873ddf3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/54efd0fdddc7dda59c3a85aafc5000af-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ca9b6ae49befffb564994da47f59b886-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4abc168fc7f52f371e700868e140b7a7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/60939ea16ab572994c25305b5087c4c1-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ed13861089be1ca4a70ad1327ee53432-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3786c49fc433581e05d0146d6b52a21e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3b5e8ad0445e20ced2a9cb92672f8648-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c030ef94cff16e957f8fe544007280ea-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3593ab0f9e0ca05f1238fbe22ebfc61d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/45e5cae4d0a7e612bcf44557a95eca62-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/59c24f6eb1ce723f64032af88aca2b42-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b9f52965ab5ba0cbe00e6b25d345e83c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1a3dc15df1d125427e841c64024cd0d4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/22b1dc707d43ddeb16547081306fe030-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/696924d6192628d29b2f15f0ab6c4174-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "6b41ba46-bb86-493a-a2f0-f478c82a99af",
+		"title": "For Rent",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "205 NW Kings Blvd, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/8d555ddeea7440db729551f8d14f8cb2-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/8d555ddeea7440db729551f8d14f8cb2-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7ffc29890cf4b5535cac82473db049f6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7fae83d2edb6ae92b87871d7a6d3b0bf-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7abef12e3379270a8a7faaf3954a9e23-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c7f1f44a7a209b957d3883da4bb73369-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/af1e18a5a2c650ff06c1b1b039c34713-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1866fac70e13810940cf0f0fab3e19e0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/38a79286ba39b13ddbc00c1aa174440b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/de636cca994451be6cc5dd09698c0152-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d9e4eed2d7cb9aaa2c0164f6796912b1-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "427ee5e7-2562-4afc-b395-8849d1f07ef1",
+		"title": "Apartment for rent",
+		"timePublished": "2025-03-18T18:40:47.766Z",
+		"address": "Nordic Apartments, 325-339 NW 7th St #NOR-327, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1295",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"area": 600,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/6c8923620fd9e9b8a5a028815871db72-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/6c8923620fd9e9b8a5a028815871db72-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5ca33d7e8c45b30559754d5db83cf769-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/bfe7b221cffb0804b572fb7dd2265480-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/73bde8fac5c875cae7b7910db5f9683e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/05642329c95954b1d1f28d062adabf05-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/92d61655829bf2fd54a445435f52b52d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5cab8181cee8bd6a79c17bba9c4aab46-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d3e93079dfcb191055ae812449725e03-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5be92e9d26b1eee821f08f9da2efcb9b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/065ec765b8dfbd31ad99dce263751a1d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2b843888f1b22038e525a7e73dfe4622-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d2a5c75f1dce745cb0ce8c16f852fb8b-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "117b2303-f71d-458c-9b19-9cce6302a181",
+		"title": "House for rent",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "2839 SW Western Blvd APT 103, Corvallis, OR 97333",
+		"furnished": false,
+		"pricePerMonth": "$1995",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 2,
+		"area": 1200,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/3dc34df46681f83b825601119bf8ebca-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/3dc34df46681f83b825601119bf8ebca-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d2df4b78d0ebe8b7c01845ac052b83f2-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/532785227831cfdbaebcaf9eea678211-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/75ee78a5c012327bfd2470d26259d1d7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/13f5cd96747215e581ba1f7f1688a632-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7ff4562e4571a3f89b402d12e71c2927-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/935a0a2601616f600c5f8f4051936213-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2e6aae30b7820fab51ed65646c34dccf-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ce18c7e845b84f445dc2ae028e2e0797-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "875ef17a-11f1-4ab9-bff0-6ab6209ae28e",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "Fillmore, 2600 NW Fillmore Ave APT 3, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1395",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"area": 600,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/2aaac7ee7a3dbfb196150fedff9c059c-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/2aaac7ee7a3dbfb196150fedff9c059c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8ae1ddeb635fd66a0f0ed234c278176c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a110065ac7577d15305f85338b46e752-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a40ff2203b246b47f8a29f86b3c303dc-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0b45eeb9bf7918d8a4193a8cfdc7541a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/372aa179bec418365bfe695e5c98f435-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3ae6dd41945104f4b368cd0727b53270-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a4a67fa5d52e8ba9fb3df2cc87fc0e0c-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "eddb6b92-df41-4f4b-97fa-fc9c6f13bee3",
+		"title": "Apartment ~ Close to Campus",
+		"timePublished": "2025-04-03T18:40:47.766Z",
+		"address": "2930-2960 NW Tyler Ave, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/beae812146b5918c281f8288a6a50069-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/beae812146b5918c281f8288a6a50069-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/071d8c573e771f8aca71cc52d75825ac-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/37ebd431425bb7b90e1f4ea05afaee1e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e49e5983a19731ac54affe7a5d6130e0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/835f6b111a4119ae039daa4b3ebf8a39-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6907f015e619bb118643ba5ab57b2965-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/65baab4d27fb619ce05ef4dcef5fc465-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/58ff80d3b1dfb795c317d67db6d64553-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "912d887b-e6b0-4288-b446-3cb26a959241",
+		"title": "Apartment ~ Close to Campus ~ Cat Friendly",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "805-823 NW 26th St, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/230f16068d35dcc1e4a75b89ad48dbee-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/230f16068d35dcc1e4a75b89ad48dbee-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b1d56130b7164f2f973c70ef2fd65a0a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/708011821784f0d66673ba5fc425b7ea-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e7a1c74053abf93dd66194487fc337d9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f18bfa120bad69f50e9f7246dea34eb5-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/63a995d3f6bba96d6b20f86feb6eacab-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/556fd9e77e3a23e0a4ffb868ac79d7bb-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/45c96a82657b08187a368b340748ebd3-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "f3e58481-2ba9-4c79-a536-d0050c2238aa",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "680 SW Washington Ave #AF, Corvallis, OR 97333",
+		"furnished": false,
+		"pricePerMonth": "$1295",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 1,
+		"bathrooms": 1,
+		"area": 450,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/bb0328926188cd5e4f630ff0314b5f36-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/bb0328926188cd5e4f630ff0314b5f36-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2a760c3dd593be3ff4ef937c7490d770-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/69b5c559b647f1b82c273de69e477331-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9b0995f6ea3e130a87ef6431f7e28f28-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b9e1f89cdf01190db791c957da73e4aa-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "981663b0-9f42-47e4-b4e9-f01d244afee2",
+		"title": "Tatum Court Apartments",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "830 SW Grove St, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/c0be168844d1e9fdd2079bfe545e0343-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/c0be168844d1e9fdd2079bfe545e0343-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9dea6e6604f1a18b4c8873975ea85d28-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ee5d223127778e78579f7acc31f2a04b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/238099c6f3c13a69ff6c46953827523c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7214504ef8daf52aa4472203353ac7eb-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5663e84cbe01b4f8f78c8327d10f16e8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c2d1908cf4c17ff756668ca2c34e2933-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5221fa649877b27655fe752f1211bede-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b672994c8a838d1340201f39813692da-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1bff1fe3b3d99aa86527b0b270700e83-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "5ff08dd3-bde8-42f2-a7f0-9826c7f6275a",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "LaFonda, 1111-1133 SW Western Blvd #LAF-26, Corvallis, OR 97333",
+		"furnished": false,
+		"pricePerMonth": "$1295",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 1,
+		"bathrooms": 1,
+		"area": 725,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/41ea69604cf5883180b8b9d9049b189a-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/41ea69604cf5883180b8b9d9049b189a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2bf9471c5a5c8d7c9254dbc25072cb2d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/912bc8b1cb76a1373ce3fa44b23f3d3f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/516ece63ff3e06dc43f71f65551fc855-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b33e2432f4a408b05e4722a74e3bce14-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5467c68b312f253ca89d9514a379665d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2403c9acac16c2f980c2b31ed7304516-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8beee546618f05c1d66b4de28c64617e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/93d32c3f411ccedb18429bdde14c0512-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/dd03596f15610c6a10c551d5691fc033-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1eae4e8ab7a38260c76960887788065b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d9cade9e2454d69c982bd25911f88800-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/758166127b1366538b8531e4c536ea61-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "fc878cd8-140f-4b83-b525-54db2aa469f3",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "RUD Rudisill 222 6 Apts, 222 NW 14th St APT 4, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1395",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/4f8a74d8463d255a02bcba75d8626d37-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/4f8a74d8463d255a02bcba75d8626d37-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/dfa77f716ea072c633e78cd9b16118b4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6a04f2903872e4ae4bacfb574bed74b8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7ccc7dd21c46306fdd410beb7dbcad73-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/05abe4c2f04c04cf08f66e01e5154170-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/dc09c525ae89f5ff2da505dc0c681d1e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/171d18d7107b519dd87024e754f026d6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/87b0d29f091bbaa3ae4188e823e8806c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/af44b9d1ab1ca4074edf191587541417-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0287faca85089dc38c72d84bf9e9c9fd-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "dd0afd3c-ab8d-47bb-aa4d-33876cf86fa9",
+		"title": "RUD Rudisill 1061 18 Apts",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "1061 SW Washington Ave, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/eb3ea046c9a0db5f8d1ce99b12a89c8d-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/eb3ea046c9a0db5f8d1ce99b12a89c8d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/18ec9edf62047ac2f33bae19d25815a3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/998e5aeb3cb7d8b7d2c6fead9ef43832-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ad72f9c85e66403388226a15e0822f81-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/37ccc8d80623ee28b101956e12bc45c5-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/dd6c11398302b4d7c2f046c45073c903-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/256bf869ddc7f28928db051f3cf80c19-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9e7c9aeea3c1c88cfc4d69d570afd05f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8cac11e50eb4388a3d71ebf563d2d848-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9ef580ee4390550a092dcd275b963c5d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f1851589efd0ed03482704e648f0fc8d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0fdfde2af1f480732714981a26c66e68-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6dc2e79659d02a6af6429c3b42a946cb-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0287faca85089dc38c72d84bf9e9c9fd-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "89a643ed-2062-4fc8-a039-e51514614878",
+		"title": "Apartment ~ Close to Campus ~ Small Pet Friendly",
+		"timePublished": "2025-04-03T18:40:47.766Z",
+		"address": "2740-2750 SW Morris Ave, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/ff813784960807d068f07a079ef934e6-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/ff813784960807d068f07a079ef934e6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3465c425a8713dd6ecd275f67ac7f95b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2369b20d1c149305e513bce9d7dadf33-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0571685fb459e235ba61679b5afc7ca9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1c6af4efc63e24a25d6e95062312e680-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c6a2943ad7b26eb3d5f2a107082cc30d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3a841f9001e33bf273b65c73304296ec-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "a8f8ec4c-2327-425d-a0df-d7ed0c965810",
+		"title": "Apartment for rent",
+		"timePublished": "2025-03-22T18:40:47.766Z",
+		"address": "654 SW 7th St APT 7, Corvallis, OR 97333",
+		"furnished": false,
+		"pricePerMonth": "$1250",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 1,
+		"bathrooms": 1,
+		"area": 1100,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/e1f7ae1195189f4bc090d583d138dbce-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/e1f7ae1195189f4bc090d583d138dbce-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/23d1d694a34177076dd5d1ae7e0890ea-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/81f4664316964fa95364cbe658627ad5-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/424d15873339a1888b65e340785ed09c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5c60c6ee42ac1337f0e84d326b132b2b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b51391a859db57d8171e7c4df742146a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1866fac70e13810940cf0f0fab3e19e0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0dc9c24472743807a7f81b263d9689c3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c344a331e5ee02292b07b9f92c0de0aa-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1058e4da4bcb6505c89110d02f018f87-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/dd7ecf5914f600e2f53d4e8a42787bfd-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "2f204a08-a13d-4663-aa19-be6705a25c9f",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "Duplex ~ Close to Campus, 437-439 NW 15th St, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$2195",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 3,
+		"bathrooms": 2,
+		"area": 1242,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/0f74e5561fa0bb960aad5eab9a3ae75e-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/0f74e5561fa0bb960aad5eab9a3ae75e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d427f87115d487c1ea1e38bd4ba94c66-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/957d7107c5d47bbc9a843bcaa85e3131-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3afbb4ae3344c66f2d835817bdad057c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/483235197f59b6195b6fc9e05b10ccb8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5999215796db34a3130a7543994b568e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/038a1e03aa6341232f49459329aef79b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/bbedce5c2b0b611fe0a20076ad9db42b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9590da09185341388644efd5c1e7cab0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2a799703882782ff7382fcd43659975a-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "0d331423-04b2-4d1b-acbc-bb7345270f4e",
+		"title": "House for rent",
+		"timePublished": "2025-04-06T18:40:47.766Z",
+		"address": "328 NW 10th St, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1995",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 3,
+		"bathrooms": 2,
+		"area": 1500,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/6a2b2537df7d94ab8a1ad52d2b9996ed-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/6a2b2537df7d94ab8a1ad52d2b9996ed-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d8e8461b4d3a8078be6ef155deb7c62e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ad235abe344589a89313c9eb1d8a04ac-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3fda2d3b17223a313f2bccf72c6a8976-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ec404dca246fba55000d73bd65ceb9ca-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/fe7a59c3b4a46603d4cd3bbcd4b16a4b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/98b33a84622f5fd63fb4afd462044181-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d442c8ec410dc5b3857121a41557729b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e4de06fa34d5da800f5e1988e8cf316a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/21702adaf53f27f64a88a4d7871311c4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/92caf183357aaea1224c0207f853f310-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e1afa0fe77f7820dc1a13294be8f94fb-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/61502549ab28347910c9f438667ce42a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/df6102e96f86968e84412e59f634ca5d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e2a7bbc95bf6f1984e2db2e2c3d39b33-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0287faca85089dc38c72d84bf9e9c9fd-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "d20bd021-cfc8-4075-86e6-73cefc00b6f4",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-02T18:40:47.766Z",
+		"address": "1745 NW Jackson Ave UNIT 4, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1395",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 1,
+		"bathrooms": 1,
+		"area": 600,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/8d555ddeea7440db729551f8d14f8cb2-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/8d555ddeea7440db729551f8d14f8cb2-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d48adb6a9ea084cebbf72dc2e5a67ff7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2b7be2223c2e1a36d21a29f918a9f6c2-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9d9ced655e51c4c22c7f0feeab78dc4b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e31bbde5e9717b8918496ca5fbcc11a3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5301f5c2fc49be2e07227fe8a2e93547-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2ed27075ac43a523a31e9f2264c603a7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/af1e18a5a2c650ff06c1b1b039c34713-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7bb3a221af893f6a52a1e59e47993b73-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a40a65e6fe6fc69ef05122a5bf8e9dba-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9742f9fd21b7a139896102840f026170-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0f92d5a9f7e0821389be5650ecd68ed6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a9deaf759fc550ae56dd23fa2e0a4895-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f630370f4e45f7340a6262e0a6c7ec06-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "2a626548-0220-4b42-a9c9-8003af60486e",
+		"title": "Apartment ~ Close to Campus ~ Cat Friendly",
+		"timePublished": "2025-04-03T18:40:47.766Z",
+		"address": "327-333 NW 12th St, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/15c0de67c0a7411d48ddb0fe3c7a0469-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/15c0de67c0a7411d48ddb0fe3c7a0469-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/47e790a16457495137757ab845c3a712-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8bc21105532c1d66745974e0023387ac-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8a808c070b91a84798a5e8c549a98b0d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/98075c5d3775265a29110354ae0754f3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/25fe9d11f21bba88b74ba57651a64dd2-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "f8931d24-204a-4ea7-8818-e5a55b03e90c",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-04T18:40:47.766Z",
+		"address": "419 NW 26th St, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1790",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"area": 960,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/a881af15e9547171a2d746e6c5eda78a-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/a881af15e9547171a2d746e6c5eda78a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/07968aecc11c7be6d9f77d2249d741cd-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/64e2510349a8e217bd2440a7ba3ca405-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/285c97ed15504c9f3f5d74767bbe3d81-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/07b1e29ed7f747e244a06dbaf5145719-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e2d08c2d62a6a4b0388713523dc77363-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/60c4320e2e84062ec99e26d6e6b240e9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/cd59c27f9a8f65b3123121707e570638-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6dd3df11522738c5eaef20683d233a5e-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "94fbc2c3-2934-405b-bf69-5fb70e553c55",
+		"title": "NW 19th",
+		"timePublished": "2025-04-06T18:40:47.921Z",
+		"address": "521-535 NW 19th St, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/5c79b1be83b18e28f049cbb078adc4bd-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/5c79b1be83b18e28f049cbb078adc4bd-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b7646e6547a773c147ec578e9fafcbe4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/381d60f283702649a1b03c8deed417d2-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/76177b6d58ba564669ab89cf14e7e1f4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9eb2760df444576ccef285defaf62f3d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/312f25107dd2e8094b17e5e4865e8077-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/fdcd084a2d9faea1b6a9e2b4c67c81bd-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/401ed5fd235c7135129b0fa950e2a06d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ffcd5ebc216dcb5dcab04d55bbd9872c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/216fbdfb42b346afa56b70e6628a6bca-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0668c9d13c38f0ca18accd65f7ad023c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c06b565db85db9c5400a45c786852387-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ade5ed09321eb9105e47ad38f3798106-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/36c58db067bad1e6713931e1d359c58e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/654ab2337c5e872e9181fddd3b74031c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e3f7f0a0fcd58185f097f6ac2664214c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a191744a0b5befa9a24872544ab005c2-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "295edb86-5ab2-4604-8c4f-27687184926b",
+		"title": "Room ~ Close to Campus",
+		"timePublished": "2025-04-03T18:40:47.921Z",
+		"address": "242 NW 15th St, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/b7c698fcc5125bbea5399f7977501c12-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/b7c698fcc5125bbea5399f7977501c12-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d88bb56543ec52087b32b603e25a3c7b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5f2158c05c48890b29fb1212d85837c8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/df97e7336d1b4305b0a63645fadc8f5e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d1e4298ba57fe44779928a54f1f01b4b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5119c4a72423120163cd2789174381db-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/616b77006cfb01b3bcad36d3974816c7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e5e74cafb9ddf055e8b092c80a07768c-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "dc48c758-2152-4591-bf84-ab3b865d21af",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-06T18:40:47.921Z",
+		"address": "RUD Rudisill 336 6 Apts, 336 NW 10th St APT 6, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1995",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 3,
+		"bathrooms": 1,
+		"area": 1050,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/9484881753c7a762dc8ec2edc9f5518a-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/9484881753c7a762dc8ec2edc9f5518a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/22c0679c073c760e5e0b030a0e69ea04-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/90fca61a97ed266e2819ea515495fdc7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ff40276bae266191a8fd2a3b64d3a16b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7603c2fa142e27c4a770bcee09a4ffdc-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/37a120e7e3c9e98010b0206aef0e493c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/435e47174ae3e1cb9b5e6414b0307def-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/cf1e5f31296f93324e0ff1e4d1b9c209-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0c24235bdeba6e38c892f8e19542f824-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d7791411a791a0eaa8433915b14f220e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2ffb46176748d45a35400847c7e5100e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9d87fcbfff387665c8f139a4a38ea8c9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/158c6b9c703feda48db509d706f46607-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/44286df1ca3a01e3bf50273dc95ce7df-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0287faca85089dc38c72d84bf9e9c9fd-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "46e1a145-69a3-4314-96cf-396d56248e78",
+		"title": "Apartment for rent",
+		"timePublished": "2025-03-01T18:40:47.921Z",
+		"address": "285 NW 16th St APT 2, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1375",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 1,
+		"bathrooms": 1,
+		"area": 600,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/94d6466dfef8613bc1b3232096a7f461-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/94d6466dfef8613bc1b3232096a7f461-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/308b901ed5765ccfa17261d4c63a9a5f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3099b248b2bc89c1e56fb4f4ce2dc829-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/04df5842bab8b63fdc0e30f32e0bcf93-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e08cf0f36cf3a1a2efb4fc56d7f2c733-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f0d3dfddab58c25edfa52ee09ddeeb3d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/25dd2214e905a9acd8594b1e341b5fb7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/893aa6dc68c3f9c2491110f058de3cfc-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/cd85e07b4f96480699ac73bb65856ae1-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a2891886094bcd9f2a6fb6a3be558c3e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f567f0e674841bbfb233b81513b5f2fd-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d23b31ffdc8e9b0e02bf825a6025fc90-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "34ee736f-c81b-4609-9a2e-a3562d75dff2",
+		"title": "Apartment for rent",
+		"timePublished": "2025-02-13T18:40:47.921Z",
+		"address": "1020 SW 35th St, Corvallis, OR 97333",
+		"furnished": false,
+		"pricePerMonth": "$2500",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"area": 900,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/d21a055da835618df4d31f6100df04e7-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/d21a055da835618df4d31f6100df04e7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/420d628010c61c39636dec7ca2362302-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/cf214caf223611816363e057aaa97179-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e4f252c3ea47e8e6542ba885385316ed-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8b9d86503c05b5c6010e51be2a2951b0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c1f809f41e339e9ef84dd69e65fa5960-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d8f013b75f28f72bb6987d5ce4b29adf-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/415062adf3c21dd6ebec0f15c4c4c2be-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8cd33dbc38bc78a65ea427a88e6ea66e-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "473fb43b-d181-4416-8449-5945e7fd4040",
+		"title": "House for rent",
+		"timePublished": "2025-03-22T18:40:47.921Z",
+		"address": "620 NW 19th St, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$3300",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 5,
+		"bathrooms": 2,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/ce62783092f8637cedb388cdb7fb4e60-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/ce62783092f8637cedb388cdb7fb4e60-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ca7a58adf385ba9a98a38a711ff7a4ff-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e5f7a3b337b2c244aea64e419a5b9cc4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3dc8e9312635b159408e2ea7f03efe6d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/546682aaca82b1c89eafef6c581fe8bd-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7473d9e175f8dd0420e50124d22f6511-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3f403b5b69ed1936a6c49e8e73831160-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1cfd8fb7515ac3f01501d169f0ca66d4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a473a8de1badb7138c3f0eec2843b515-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/807c927c766e4014bc9499542290a07d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d608641b568f79c4717d102481c5ab78-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ecaf5c1122e7a150563432ce2f61f1a9-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "47cda415-8916-4c6c-a705-0f51af220836",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-02T18:40:47.921Z",
+		"address": "2900 NW Polk Ave #110, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1400",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 1,
+		"bathrooms": 1,
+		"area": 950,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/7e98c00d840128fd74a57bcc5ad0ccb6-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/7e98c00d840128fd74a57bcc5ad0ccb6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4bbee98bdb25673d12ad386ba9eec41c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2a30a09dd1ff4c5457a7031c142754e0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/174916c3a0d980422942bc2cf3d89fed-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ed3500e1c35b731cadfb324022f241c5-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8345b32476e188ecf8166e0d445bc368-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c633be4c480be7a493536a7cd8be7e52-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e62dfe2c99df70cd0bc558ffd085431d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1ab986f2817bb0094e5f338aa890d306-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b7bce795b2afbfbbe0dd9bbeb27d6031-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5fb704205d4260469760d09efba405b7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/cb9a2a2839fbe678f5193c46c930b201-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e58897e06deb06becc5f23ba59d5b1bc-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e1bdfe98544686370031e179774c17f0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/128213c5be947dea4dd119fb206c0f7f-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "5351fd90-f973-4b31-ba47-1535c4cb8c48",
+		"title": "House for rent",
+		"timePublished": "2025-02-04T18:40:47.921Z",
+		"address": "308 NW Kings Blvd, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$3550",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 5,
+		"bathrooms": 2,
+		"area": 2015,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/fb73a159e6e16e45ccb6b5553452bef1-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/fb73a159e6e16e45ccb6b5553452bef1-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b0159da83bc08629efd50614b2a2cb8f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/417e10086b01652c3c80f80ae21ad9f0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5bf5915bf2a4c228a2cb38299e005893-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/da5082433dbdd5421e5205297f1d4af5-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/750f896f8a112b6aee2924132f2147e8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/43a4f1ba606d0a6026cc788e1497246c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c5485cd6e83db3b1a574bad9241818e3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c8efa9acceec856108e944f627656b4d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/be804d1ef210a2e04a4118e19279873a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b547abf6e44fe681d173411ffe1281da-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7eb2b4fd65f537eebcc57083154125b2-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/823723786153a4bb4210f3da61232527-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0b5d7edc585848979ba87bfa45d48396-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ff80e75342fc9b4c292994d9d56fe2ec-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6937082fc6547eb0784981f3389070e4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0a2b1a29da7d600fa8bc5efbfbd9d8ba-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3f0a4b771e2d9f8fad01f3776a1decca-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/51b6ba663f56a0e1b21a9a1d9efb1b09-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a2e3a3caf4d37d2613d1086fa893e3e9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e102d3d23ec80468335339b059c110b3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6adaf9cd3dac440f6d797ddfc1f16ac8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0b2f84cd2955ca88ccf41e536e92dbb4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ac7a84bd94f448da06d26deae8d55cba-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "c4aefe75-6867-4e95-9529-c6ffa1bd8ac8",
+		"title": "Townhouse for rent",
+		"timePublished": "2025-03-11T18:40:47.921Z",
+		"address": "920 NW 10th St, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$2050",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"area": 900,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/c41bdf716e8c383d19100ebcbde17a23-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/c41bdf716e8c383d19100ebcbde17a23-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/aef4fd4248ff8de60c3ff940f2ee1e1d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1b57f6f5130cc623d00976fa8c9c9a9c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0e0978242787a7673120bc73944fc484-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d1982e9797e1879ecea0cc5c05249c78-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a3ad344bc2916c0d0fff381251292d47-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/41a9e540ebb3ab8a7cefb7adaa2e3797-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ac99a0715778c113958a16535f6939b3-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "b9788ceb-3382-4552-a7f6-1db134e61511",
+		"title": "House for rent",
+		"timePublished": "2025-02-21T18:40:47.921Z",
+		"address": "828 NW 12th St, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$5095",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 5,
+		"bathrooms": 6,
+		"area": 1955,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/fac5bb82cca5357eb089f464e0ca2af3-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/fac5bb82cca5357eb089f464e0ca2af3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/af4b1d7368a1acf0427b8f3caaaadd98-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/53e181056f62c81f50f2b1b02b8bed34-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/89800083c73ba5dbf8b87fdfd0a01268-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ad0e70b04d99b1fce60dc0848fd24089-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/208f23f395ac0f0ffe3596c66795f1cc-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/901e1905f9ef2e5bebcba4f6bc885694-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/29a80c8ba660d8fca83db48c681451fe-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4781c994f9ec3378886a6c7d1d64d0a6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/10e296da06cac0afd30431516c4340ac-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e2a56ec18e35f5160d11dadbb85f7753-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c61847a414ffa960b6dee3413c5e8ab9-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "9844fd92-6193-4f55-b566-aa2c07f0ee8d",
+		"title": "House for rent",
+		"timePublished": "2025-03-06T18:40:47.921Z",
+		"address": "912 SW 10th St, Corvallis, OR 97333",
+		"furnished": false,
+		"pricePerMonth": "$2574",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 3,
+		"bathrooms": 2,
+		"area": 1144,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/3602baeca19e6b3d7dff66ac7500376f-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/3602baeca19e6b3d7dff66ac7500376f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/90f2b10834a75ef7a36d2625f28c8034-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/81b22af8443c1364cf6d6cb5c43b6cb1-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/708236c3302257f5c0a29a3a681f4507-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/41d56cb65a838df94ca9effd54cf4736-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "413251d6-320f-4056-aae2-04a85a0f8249",
+		"title": "Townhouse for rent",
+		"timePublished": "2025-03-09T18:40:47.921Z",
+		"address": "309 SW 10th St #1-4, Corvallis, OR 97333",
+		"furnished": false,
+		"pricePerMonth": "$4500",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 5,
+		"bathrooms": 7,
+		"area": 2123,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/c6c58002670079429f62710a569129d3-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/c6c58002670079429f62710a569129d3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/268e8c70bbcd16465625b2f982519ab3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/03f7b8caa8211f633a0ebc8e564dff14-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8df0ffc745b9594870783d32337a783d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ace55a76e432d7003f40d800e82b4d9c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/111078fcdd21f944a9669b6beb4860dc-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2cbffaef21c0234fc27d0702d69be529-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a4cc3b148dce7f2d6d66d8c3f359c999-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/67604dbb5802402155aa8eda68d4c0b6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3a977b4eb2c15e7ce2fb128efa3b52c1-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/cfc0e1576ecf6b0641c1de9f0748b2d3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ca29064761bb37bd2c2e2f4cb54b48da-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1257e74bb9adcc11d8249bf2a70b44c7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9ed8fd03936a04bd962401989e845dea-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/df2786cc8af1297df8499ec871502903-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/be23406647175cf7d5a0d643c69d8cda-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d548b38329cf1c8593add902000d262e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/206cb8a133593536c5e260f1b117b456-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e4115dbf68e7d61b5b0c5b2d4538f368-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0208c92b95797605addcdd2077b18035-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/cdf74442352e6b1b77159d3a56f350af-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/dfda1d71c23934cee5766b690023f3bd-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9c97ed22fa5949b2d140fd44df6652a0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/710c95b88d44ccc3ed7e9724551f879a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/361420324ee0e9e9183d6cceb9536195-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7670be76c8e8728d544bf056abc369f6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5e025943a6231a113436ceae8647f803-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4b976e194fadc7156d2104eeb881df43-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ed56ccc4325bfc5f50d6b6bb46ee1824-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8b4eafc3d3398ae2216cc7b3feeef109-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "b4013b55-1c90-4877-b677-cd35bd77fa48",
+		"title": "House for rent",
+		"timePublished": "2025-02-18T18:40:47.921Z",
+		"address": "910 SW 10th St, Corvallis, OR 97333",
+		"furnished": false,
+		"pricePerMonth": "$4895",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 5,
+		"bathrooms": 2,
+		"area": 2336,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/a6df855ab1110169f4a9988b1fad8471-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/a6df855ab1110169f4a9988b1fad8471-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/36cd6a929b66ed449c0554a694663b45-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/eb3f7d2789e77b33f52d54340f5c4f73-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f3de7e7fcea263039e3951fb8e17d9b8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/89d64b11e272b3658455d12c30ff3fe9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f0edae3496c98668badaf2f119c01a03-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a93d9c578b0387adc0731fa636f007fc-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/38817df035a9898cd7d59f8f8688ebe4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f8cbedb661a8f5306036e52897310066-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/024d5b54ae15f8dcea75e09416f8a53b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c611f67d35f7982091298075338686ec-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b4241f1ada695ede5f854e0f811c038c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3b661d061d770fa95f47a9123d49497a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/535d834b1413166eba50818766bd48bf-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6bc0d6af8259a5c197ee1a573c5909db-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "b8328c94-2b5d-4594-8db5-2fc61164a55d",
+		"title": "House for rent",
+		"timePublished": "2025-02-18T18:40:47.921Z",
+		"address": "324 NW 17th St, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$5495",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 5,
+		"bathrooms": 6,
+		"area": 2363,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/1d666a63c9793a69f0f403c2451d5ac6-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/1d666a63c9793a69f0f403c2451d5ac6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3ba663abb91c5f2f5f3ffb00e8a18ce4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5a1140cc01d7d99c07d6a369d832aee3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e0f7cbd1f518cdf5001ff2500eefae1f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f48e1be333d7df67ccc2b79d97706a0e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/77fc4336dc2739336e3902c558f5dc60-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d8de18044e1c0c743e66b2d33334b915-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/38c8614daeaa2f44384fbfdb61cdb5df-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2b6e985f5049e19d4fc55109b66d71e3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d06ca5c8a91e8445596918b613e39ae8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/061b6892808d548009a3b5ec880f9007-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a0d107699a8bf225fa6535d9c370d4ef-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a33ae6c203d5bcfb0f957b3be94838ed-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a72566bfa83ab66769b7d3e5b97ed7e8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f6e40b9e7a91ee4e33a7ce95020e5928-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3db7abda569aca264cd81dbba0113f43-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "4f301d44-09f1-4afc-ac57-8f0526d60adf",
+		"title": "Apartment for rent",
+		"timePublished": "2025-02-18T18:40:47.921Z",
+		"address": "1202 NW Pierce Way, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$5095",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 5,
+		"bathrooms": 6,
+		"area": 1995,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/fac5bb82cca5357eb089f464e0ca2af3-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/fac5bb82cca5357eb089f464e0ca2af3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/53e181056f62c81f50f2b1b02b8bed34-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/af4b1d7368a1acf0427b8f3caaaadd98-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/89800083c73ba5dbf8b87fdfd0a01268-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ad0e70b04d99b1fce60dc0848fd24089-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/208f23f395ac0f0ffe3596c66795f1cc-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/901e1905f9ef2e5bebcba4f6bc885694-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/29a80c8ba660d8fca83db48c681451fe-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4781c994f9ec3378886a6c7d1d64d0a6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/86b58e05bdb356f65908fe0a99469d18-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e3de9fbb66914b5bc4b73b3974b786f4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0ace6df513d9878459c7fa7c1b46f5f6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/544a8ee993d35eee4700d69ca1e5347f-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "3cf1ae25-3db5-4e59-9f69-2929b1fe82d2",
+		"title": "Apartment for rent",
+		"timePublished": "2025-02-18T18:40:47.921Z",
+		"address": "204 NW 9th St #4, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$2295",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 1,
+		"bathrooms": 1,
+		"area": 512,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/7befaaafea065133f04f54fec0a68fe0-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/7befaaafea065133f04f54fec0a68fe0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d3e7f2c25319622d175161b90dc27c09-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/bbb429759a6fd4b1897fa4d78f9cd042-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c175b0e7f44a223dda8c16be76b34e1d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8e2e761976b2d175112f64622d176e2e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/110315808e3bb485beed1c185f69ccb3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/85acf35b6123e8a32c5b7bd4cb44e70a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/98700c42f8112f20a48be5a6de6e8607-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1bde5a1608445bb0ffc11ec872b78527-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9da04e69ae205ca130b15f189c76e95b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3369245934391b545c83c3f403498e33-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b371920a18ccaa9030fa114b96460fe7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/58e2091a224ee2f2cc6439661a4ce97e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b15eb9843c969814a11e5a894e45ce48-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/16adde444961b91987e11bf62192d4af-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9e7006ca15f18ad9ed7155ac18c20009-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6ea23712d731d4ddb1a14adcd43d18b9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/dd58f53780efc1805f28e3c9382c89d6-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "d8b10d0b-2ba4-437b-a4c0-ec08b617ccf7",
+		"title": "House for rent",
+		"timePublished": "2025-04-02T18:40:47.921Z",
+		"address": "1363 SW Western Blvd, Corvallis, OR 97333",
+		"furnished": false,
+		"pricePerMonth": "$1845",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 4,
+		"bathrooms": 1,
+		"area": 1394,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/9cf1e1339936028da98ffe017f18eb81-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/9cf1e1339936028da98ffe017f18eb81-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8908a9c2d4bc722ee75b76839a463d9e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/af1232648acf8387252cf12eb18dc324-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7d8b4d19b50021076a161c71e97740b3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a8768126b307956bdb796526ed211d83-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/926f1e210c3d4edd986de30f397580ab-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f6e3e926c974787f7a9e89f7c73e8b2f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8cc96becf1d483bd66795d67aa6b5caa-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/266ccc802b4ef1756e9e62feaa76c2f6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/84e0a2467ced1451dfbbdda8224e0fb6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d0b95581f51e17095d679e4515a1727e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/dbcf68278841d4e116b82ef4ba6ffd03-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "bfd50cd4-9159-49c1-b797-19c09dc28ef7",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-04T18:40:47.921Z",
+		"address": "205nw11, 205 NW 11th St APT 1, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1250",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 1,
+		"bathrooms": 1,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/aff07d0d2fec71b1d3f5ebaca66b5176-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/aff07d0d2fec71b1d3f5ebaca66b5176-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/460823ea405fde5d65bc163ec70567cf-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "ac373c54-c437-456f-a9da-3d57f0b1b727",
+		"title": "(949) Harrison Street Plex - 1 Bed / 1 Bathroom",
+		"timePublished": "2025-04-06T18:40:47.921Z",
+		"address": "3003 NW Harrison Blvd, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/092b7ac91c01134defa9a73a98af2f22-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/092b7ac91c01134defa9a73a98af2f22-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "36530fc6-5af2-42c8-b178-9332056a2818",
+		"title": "(951) 9th Street 6 plex (Studio / 1 Bathroom) **Move in Special - Save $650!*",
+		"timePublished": "2025-04-06T18:40:47.921Z",
+		"address": "315 NW 9th St, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/f336c48f0d98ce865179cf7b33f0f223-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/f336c48f0d98ce865179cf7b33f0f223-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7291d21da6317be5fd2e0a8498ee9941-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/17595975ae615157bb5ff770a8c0fbd4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0e66543dd0156bfdc7d79b520a1c57b1-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c9c0ae05be1c6ddf102d35333e629f36-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d9c3a8c010bcb015861a19ea5ab0282a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/13d5edf69307747ff611fdf863e1c30b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/49e93172d03ed93bf9de5638897aa132-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/afb18af101da7afccccb18fed55bf231-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/aed4d1552303088582cacf695588b45c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f422e69ee1c505d323b41837f8a4e679-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "f623c8c7-556b-45f8-ae3d-9b59e50e9edd",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-06T18:40:47.921Z",
+		"address": "(642) University Center - 2 Bed / 1 Bath **Move-In Special**, 2001 NW Monroe Ave APT 308, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1600",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"area": 750,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/3718f816ec3d6693d3eac94c73a5a224-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/3718f816ec3d6693d3eac94c73a5a224-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7d750c9ae34c6316cae2a16a91fd1094-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f0a764253ef5ac4e65552e8a42c5eabf-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0d9d2beea9b3ce14b8e559ab88d1a2dc-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2703a0b0f4bc2531d8930577787814f6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/cb6746ddda3cb9c358916236f282c088-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f673fb934eaa6ef429bfdc9a55c42192-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/72671aac15a250fa2013457920a60ce4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/989c534efaeaa0acd115a0190eb69817-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/84335baf5c2ed4ced9e09f4962cc4a33-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/461144f29f314b7663d8ca52bdc0353b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ab1f602fe601534044010400f0f8a95e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c5a8a18474499409e09b61ae03e69d9b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b51743950fd5441b0d9d6eba5717741b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/67ecf32ba52e75915fa51ebfd7ec606b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ccbbe79b53836953dab1576bfbe38804-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b0aba26333b53d236b449d3238fe2eb2-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2ce0b75d3705be6accdc4cfb9386e1f7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8438c4057cbe4d248f1264b86af3054f-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "56582820-d509-4f7d-ab3f-c20e02637fef",
+		"title": "(949) Harrison Street Plex - 1 Bed / 1 Bathroom",
+		"timePublished": "2025-04-06T18:40:47.921Z",
+		"address": "3007 NW Harrison Blvd, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/8db2a5cec76b17443f8fa722c00ed7f7-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/8db2a5cec76b17443f8fa722c00ed7f7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/5ccdeccce258d15f4891c99635c80dc9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/cafa12fe8880a659e6e2ce71cbb4106e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0268c5ac6c7df2d13ce9afdbbe97c6d1-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/de528ee5714915e8a68296624f0b928d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4243bc39ebe0f56b13297af0f9993297-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9f79f6c4f9b4846494faf53958bc7713-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "38be98df-6e2b-4b0c-94f7-214c20bff44f",
+		"title": "Townhouse for rent",
+		"timePublished": "2025-03-10T18:40:47.921Z",
+		"address": "1353 SW Maple Tree Ct, Corvallis, OR 97333",
+		"furnished": false,
+		"pricePerMonth": "$2595",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 3,
+		"bathrooms": 2,
+		"area": 1134,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/ac42768713a298da3f6e99e738fc54ff-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/ac42768713a298da3f6e99e738fc54ff-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2b0bc707c587552b29bb3a9ec654b87e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1ff24893cccc48082a88c0dffb63df56-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c11fa093caa10068b57952aed397890c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/29d9307b0fb4f7bffecda880f5855e95-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e940fc8dc1c3b35f6cd1c84911ab7210-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3456b19d933a43793f405a909b67d85f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/827ae8b2b50beb62931e0b8f666fa0b5-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0353ac8a1f510de380dbb71f1e07f231-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/28a98b89af3b145dc31052a32605c08b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7b2a1ee8dd87afbeb7862009825ded30-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3aa58e48fcf0b94ec513ae9f69bf8543-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/bebe8beee1f3bbdbd975250c7cb51491-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/034adb38fdde2499b1cb53dc85904523-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8534dea78068f1dbd2688e2ba75dc062-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ce519d42f477b79d3b248a9c3142f7bd-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/04c62097a98e4dfe423e32bce707fd4d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b2eb3b85449484c35116aff817ccaa0e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e68de72620686f7e0a6fe51dcc5cee6b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/86b8c4f98abbfbbe6b7794a37d3c27a8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e609502666b4099221d40b5cd6c4ab99-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d9b7da38bd27c08b71021379d283787f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/12ff0cd71dff32b2767c49f718b6e861-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/48f65f5c03b0cfcc3050efbc5a55022e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c7c38b8fc1a768b43e811616c6084f6f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/603351e3225f669060e6d21ec6ec70ec-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b03cb264990c71fcf13d2d04b6bf4c3f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/fb61d1ce0f3b258ca1b89c8f2ce71e1a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b1af42abcd0980b6da81213fa72527a8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/714ab32c08e2d6090099dca281e17dcc-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6ccbd5653973466e871d85fde12c151d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e93c64de48d41679fe80bef9704f74e2-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/82abeac992e6cea812e43d4de205100b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/901f384f4e33d6400196551767c8139e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2ce8e0b117980531560435d5ec8f2bbf-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "f101a74c-5000-4032-9301-ffc6d374798b",
+		"title": "Apartment for rent",
+		"timePublished": "2025-03-13T18:40:47.921Z",
+		"address": "(488) 15th Street Apartments - 1 Bedroom / 1 Bathroom, 426 NW 15th St APT 4, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1195",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 1,
+		"bathrooms": 1,
+		"area": 625,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/a944a38bec745a6d4207ea8cc97b3787-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/a944a38bec745a6d4207ea8cc97b3787-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0f2a37810c60b9f1797f6543bb7085d2-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4400f01aca47e9cb35f5645967d98845-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9e5c0799f4a226975b95852844bb1f6d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/57bc5925b620a18fb2b97718f8506627-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/54bc47604430dc149452e15bec781842-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a9e337ae3d05908d35c9bc727356d463-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/06a126a211a29fb81b03555680757574-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/85e7524eb82bfb573ee519a16084672d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9be00d7771f48e5f35e87d45f15cf244-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/bca2ad12a340925f075553cb7998d927-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "00d2b198-6545-42d6-a4d5-fa243bf39fbe",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-06T18:40:47.921Z",
+		"address": "(343) Palatine Apartments - 1 Bedroom / 1 Bathroom, 514 NW 21st St APT 10, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1195",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 1,
+		"bathrooms": 1,
+		"area": 575,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/80e06fcac2c6021c1f07621b565d22a0-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/80e06fcac2c6021c1f07621b565d22a0-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "b1ecf73f-b9d1-4be8-bf88-9b3944ba1d76",
+		"title": "Apartment for rent",
+		"timePublished": "2025-03-22T18:40:47.921Z",
+		"address": "(909) Plumtree Apartments - 1 Bedroom / 1 Bathroom, 300 NW 14th St, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1250",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 1,
+		"bathrooms": 1,
+		"area": 800,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/e56e49aadb0089ada18d2f817eebb44d-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/e56e49aadb0089ada18d2f817eebb44d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8bd36ce7eec206ca810dadcff882cb03-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b448164cedc33fe372f37ee0ca5c4bf5-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2d2c30530b687dae91019b12a51b7424-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c86dd01a83e2fc62ac109bee7fd9c60a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/85b6fd72f8e9229517a574a7f16ba934-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6f9bb40f64bea8109b4250b36a37f381-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "024cf47a-c961-4833-84c2-a1c6a8ba05c3",
+		"title": "House for rent",
+		"timePublished": "2025-03-16T18:40:47.921Z",
+		"address": "220 NW 15th St, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$4845",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 5,
+		"bathrooms": 3,
+		"area": 1966,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/8fa7b520e52234a2f5569e6810e58066-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/8fa7b520e52234a2f5569e6810e58066-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3f67adbfaeac4bf4b69a1483b6f7f455-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/eb896aa379dd0c938fad51732c412b60-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7f1c22ba674e740492cad55a6a30bb17-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7127da3e110d04d0799283c22ddf6599-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1d429882444b8cd663dd26baf09a9313-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/dc6e78566a2d4e303fcdcd03b95d9fa5-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7e8f0c4b8db105e265a8b929f5f56626-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/b155a18088ad204b27a3a96bb0dc1ce9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/cd40d4dc7bb39f812b81b373cab75ae8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6c5181d1164115f062cb5a3ee51d1ccb-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/40d360955fea13422c6c5cb86280f091-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/515fe187c3266d4374f3a376e61ab8b0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ac2642ebd09ae84277c87b2877ccf841-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/df8646d1a804475ef7e98d5415f2ea44-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1ac173ee4fdfc23e6722b425da954774-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ceae8a4ba31cd9e49155431c78dceaf3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/524d26f3aed45b6e59dcd5557774c7b3-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "5757c174-3e06-4c30-b629-9d0e8706e11a",
+		"title": "House for rent",
+		"timePublished": "2025-02-21T18:40:47.921Z",
+		"address": "1820 SW Stadium Ave, Corvallis, OR 97333",
+		"furnished": false,
+		"pricePerMonth": "$2250",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 2,
+		"bathrooms": 1,
+		"area": 928,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/bcb6d6798eb057578153ef498eb348ba-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/bcb6d6798eb057578153ef498eb348ba-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/85aba19f42219073c8d40b549285e773-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1493cf22d07d1063511901d12eef5031-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4d31423015082da4a5ea265026ca5081-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/98490548ebbe50a9e6d1e0618053a583-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0acf1e39ff0cbbeaecc057a960962856-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f2b020b51aad0f8e1585f8ff60c02867-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4725619d628ea44855851b4c0179542c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c9b15bc1b4400ac637b95fe78effb6a7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/afd221fda4767b354d03210b7ecd1759-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7c022e3858a83e485a5beb5d871021f5-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/881a6ebecf2a4257395b94f33c17e151-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/e4ab8aeae48cdeae2eb58e3f710417aa-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c1837b693b0443f6cedb478ce30f63c9-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "33b77ad9-d0e0-45ed-9371-fc1684c630c1",
+		"title": "136NW21st",
+		"timePublished": "2025-04-06T18:40:47.921Z",
+		"address": "136 NW 21st St, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/1699a4fd373cb138f9f7fef24788052e-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/1699a4fd373cb138f9f7fef24788052e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ee0cbb8a77ceb0a97535bc18f62a47f9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/db888c7ebe9b3ef3159da3b393486d5a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3991c9a7ef7ba2aff29b4c62804e9ba6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/75e4581b9472d019feadfd76323512dc-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/79cb1236231e1d01ae4ca34c931f934a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/500acc1cbd46bf9867c9dbed3d752a51-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/a713144eead0fd2b30854ffa5cb00239-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/58505010ddbc1efffe0e4f34226265c7-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "c48ddfb5-87db-4b2c-9fe3-e27beb7c652a",
+		"title": "Apartment for rent",
+		"timePublished": "2025-03-06T18:40:47.921Z",
+		"address": "202 NW 15th St APT 4, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1195",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 1,
+		"bathrooms": 1,
+		"area": 450,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/d3fca7292b7685aa85cf8f1581387eb3-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/d3fca7292b7685aa85cf8f1581387eb3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/77b79bc51198c84a5384956de6c79aeb-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d710ffbea19c16bd07e0970a52213548-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/21e2112eaf40d564ad65e69e666f1fd0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/bf94cca5e0abecbe32fe9c40dc25f258-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/692d9ae96bb6cf35636e4f47035fb503-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8f5a1e2af2f7e2d664c430487f4b15c7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/81315f43528d08f16c18b6faa339b59d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9c448b8f1a0bd6cc26969f159e117ae7-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/15dd3841e2c644a6d8c2dab550364576-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "4df7548c-6f8a-4601-84b3-78cb8025f46c",
+		"title": "Willow Tree Apartments",
+		"timePublished": "2025-04-06T18:40:47.921Z",
+		"address": "775 SW Washington Ave, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/ccbaaf5f09f108131dfd24b25784be83-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/ccbaaf5f09f108131dfd24b25784be83-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/caa7e82bf366f5ca249b02b3d34b249e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/dfb4859d627cbd4fa2f0a1057c3c13a8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/74d0b2381345fbe801a0d41159adcb09-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d2f70f40cde8eff1f26c7d236395d532-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/86b0e5d75cbb4276e1c6a1580f3a8bc6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/477bdf7ef9d9eeff667eb6dcdea87cc6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/205bee6d7145bfad092c37360ef38163-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/61368c93effdbdef77d1d68880e7d1df-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/24ada7fd7b15645c5c6228ddccca3a0c-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/559f303a24e0ffb87a644554bf4ffc8a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/12e49aa5a75c33236d5b9113900642de-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0cc537c04dfd72b033ae16ec9caeebea-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7e58f3181a47af409c1a34fc1ee17330-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/98417de2e051d59e1b07ef9e0088fd1d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/08473028198564d97e20e530a402cada-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/4e06114290d6575253517244a318328b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1c67a05d659d97883e540c2e82c595d6-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "308a53ab-9d9c-4a0a-88ae-a625cda28329",
+		"title": "Stratford Apartments",
+		"timePublished": "2025-04-06T18:40:47.921Z",
+		"address": "430 SW 7th St, Corvallis, OR",
+		"furnished": false,
+		"pricePerMonth": "Zes. $undefined",
+		"leaseTermLengthMonths": 0,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/b89a37b763aeecebaa017c7b87b2c054-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/b89a37b763aeecebaa017c7b87b2c054-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d3bfd30ad3b81b38e8a94a6adeb4c982-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/6ac1d8d8a93e5f3b05ca5139fb0fadfd-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/bc2cb491f0e9a9dd01bf943c58cdd5ad-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/9158adcde01882fa018b6bebcbe9d465-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0378d78ce37f108cd87b29532fe0bca6-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8ec3872698bff2f71cf516e6eb74a8e5-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1067e214f99a05492a66d73fa3f01c9d-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/ba3566f193ac1cf25739b82ed855a0c4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/456d6cd4c31ed98d817b898acc77558b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f9d24d0a3f7483f7c80be7af29a7be08-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/92cd1d58a67c60c87422a850424c29c8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0dcab99bf60785d2ace4d3d3da57716f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d78b477bd25ac7444b01ed4fb2d8993e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7976d95e7fc6b7f440175f2500ff4867-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f7d36339a4d71f43e6cd3c842cc37782-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/f6c8dea5e2e75f413ec734ac585bbc85-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/26aa164e9d47dcc8d883d06be47a2f16-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "56752b0c-4172-4a81-adc4-3c2bfc80c139",
+		"title": "Apartment for rent",
+		"timePublished": "2024-12-06T18:40:47.921Z",
+		"address": "402 SW 10th St, Corvallis, OR 97333",
+		"furnished": false,
+		"pricePerMonth": "$6475",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 7,
+		"bathrooms": 6,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/69c3a6c240c99f8289ad4bca51ed2200-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/69c3a6c240c99f8289ad4bca51ed2200-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/43300018cf1fcb1b21eaba503da376b4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3e66ad12eae9f8bfc9342d09f98aa1cd-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/758faa9a41cf76783f1d54cfdf51e6f4-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/131bc0ff25ce838eda0c88928ebeab79-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c85cafb9cba94e3ca1e70faeaa161dc9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/8f13a42c2bf168a72ec47090ea538ac0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/3dc25acd83184f00cd8b0c8d0e3ffe63-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/cf55ce6b43f2ed94f04877986f6f0e9b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/d07b6561b3cf8708c9e69ffad14e23e3-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/0b69c979a3f7ae6fbe67d39e9fd070e9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c55b6b71aa8ed0df1a2f3ec6669ea77f-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/14cd61092e7165d6124f9c5aca9b2276-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2789d12b793894e5a28711edc41db7f9-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/65554895d9c17e0f0091a1b488950e08-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/393178c7c07eddc8d10f2930c69c4cf1-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c2f62dda2a0421ec12fca447efaf34a5-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/c9b2ac68171011998c492d3e934e2434-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/867d574af0c4793ebd5fe6156529aac0-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/43b709f5c8f82da8159195f7fe3b9ecf-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/06695b2d69e40b54329c1868163ba4eb-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	},
+	{
+		"id": "2ae889a1-dffa-43c9-a9fa-4cbfef89db2c",
+		"title": "Apartment for rent",
+		"timePublished": "2025-04-06T18:40:47.921Z",
+		"address": "955VanB, 955 NW Van Buren Ave #BASEMENT, Corvallis, OR 97330",
+		"furnished": false,
+		"pricePerMonth": "$1950",
+		"leaseTermLengthMonths": 0,
+		"bedrooms": 3,
+		"bathrooms": 1,
+		"area": 1050,
+		"images": {
+			"hero": "https://photos.zillowstatic.com/fp/1e1310f3322506c9882f35fbc3b86f18-p_e.jpg",
+			"additional": [
+				{
+					"url": "https://photos.zillowstatic.com/fp/1e1310f3322506c9882f35fbc3b86f18-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/eed5b207acb18555ee32e380f7e400bf-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/19dce51f288d00a2f2407470adcb1f6e-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1b235003b16e1abc8e3cf983cd4a246b-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/2e806919586acc2f1d908abcc377d02a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7d164127d476c4d725a78e9e33b391a8-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/7af1b05eef602fcf51a098a5890ace89-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/1f86a061856a9dba5f2165ccea97505a-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/db73157772a303b01f634732090d8540-p_e.jpg"
+				},
+				{
+					"url": "https://photos.zillowstatic.com/fp/02feb137796d410350f55c97c6baa034-p_e.jpg"
+				}
+			]
+		},
+		"description": ""
+	}
+]
