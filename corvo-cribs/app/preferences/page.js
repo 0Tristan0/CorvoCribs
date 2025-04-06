@@ -16,6 +16,14 @@ export default function Preferences() {
         } else {
             setHasOnboarded(localHasOnboarded === "true");
         }
+
+        const preferences = localStorage.getItem("preferences");
+        if (preferences === null) {
+            localStorage.setItem(
+                "preferences",
+                JSON.stringify([])
+            );
+        }
     }, []);
 
     const router = useRouter();
@@ -41,6 +49,8 @@ export default function Preferences() {
         if (event.target.value > 10 && event.target.value < 0) {
             setBedrooms(10);
         }
+
+        localStorage.setItem("")
     };
 
     const handleBathroomsChange = (event) => {

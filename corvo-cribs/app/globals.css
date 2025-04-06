@@ -13,6 +13,7 @@
 }
 
 body {
+  padding-bottom: env(safe-area-inset-bottom);
   background: var(--primary);
   color: var(--dark-accent);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Arial', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
