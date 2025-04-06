@@ -32,7 +32,6 @@ export default function RootLayout({ children }) {
         className={`${jua.className} antialiased m-3`}
       >
         <OnboardingGate>
-          <Navbar />
           {children}
         </OnboardingGate>
       </body>
