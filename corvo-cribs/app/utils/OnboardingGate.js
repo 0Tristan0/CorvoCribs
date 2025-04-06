@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
@@ -8,22 +8,15 @@ export default function OnboardingGate({ children }) {
   const [shouldShowOnboarding, setShouldShowOnboarding] = useState(null);
   const pathname = usePathname();
 
-  const checkOnboardingStatus = () => {
-    const hasOnboarded = localStorage.getItem('hasOnboarded');
-    setShouldShowOnboarding(hasOnboarded === 'false');
-  }
-
   useEffect(() => {
-    checkOnboardingStatus();
-
-    // Optional: Listen for localStorage updates from other tabs
-    const handleStorage = () => checkOnboardingStatus();
-    window.addEventListener('storage', handleStorage);
-
-    return () => {
-      window.removeEventListener('storage', handleStorage);
-    };
-  }, []);
+    const hasOnboarded = localStorage.getItem('hasOnboarded')
+    if (hasOnboarded === null) {
+      localStorage.setItem('hasOnboarded', 'false')
+      setShouldShowOnboarding(true)
+    } else {
+      setShouldShowOnboarding(hasOnboarded === 'false')
+    }
+  }, [])
 
   if (shouldShowOnboarding === null) {
     return (
@@ -33,15 +26,18 @@ export default function OnboardingGate({ children }) {
     )
   }
 
-  const onboardingRoutes = [
-    '/onboarding_1',
-    '/onboarding_2',
-    '/onboarding_3',
-    '/onboarding_preferences'
-  ]
+  // this is so cooked but i am so tired it is okay!!
+  setTimeout(() => {
+    if (shouldShowOnboarding) {
+      const hasOnboarded = localStorage.getItem('hasOnboarded')
+      setShouldShowOnboarding(hasOnboarded === 'false')
+    }
+  }, 100)
 
-  if (shouldShowOnboarding && !onboardingRoutes.includes(pathname)) {
-    return <Onboarding_1 />
+  if (shouldShowOnboarding) {
+    if (pathname !== '/onboarding_1' && pathname !== '/onboarding_2' && pathname !== '/onboarding_3' && pathname !== '/onboarding_preferences') {
+      return <Onboarding_1 />
+    }
   }
 
   return <>{children}</>
