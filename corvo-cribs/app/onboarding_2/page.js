@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Onboarding_1() {
   return (
@@ -8,9 +9,11 @@ export default function Onboarding_1() {
           No apartment? That's just camping with more stress.
         </h1>
         <div className="pb-15">
-          <button className="bg-[#69554D] hover:bg-[#29201D] text-white text-2xl font-bold py-2 px-4 rounded w-60 h-15">
-            Womp Womp
-          </button>
+          <Link href="/onboarding_3">
+            <button className="bg-[#69554D] hover:bg-[#29201D] text-white text-2xl font-bold py-2 px-4 rounded w-60 h-15">
+              Womp Womp
+            </button>
+          </Link>
         </div>
       </div>
     </div>
