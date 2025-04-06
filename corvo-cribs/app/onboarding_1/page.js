@@ -9,8 +9,8 @@ export default function Onboarding_1() {
           Looking for housing your next academic term?
         </h1>
         <div className="pb-20 flex items-center justify-center">
-          <img src="/beavers/Beaver-Lodge.PNG" className="w-[80vw] absolute z-10"></img>
-          <img src="/icons/Trees_Lodge.svg" className="w-[100vw] absolute"></img>
+          <img src="/beavers/Beaver-Lodge.PNG" className="w-[80vw] absolute z-10" alt="Beaver Lodge"></img>
+          <img src="/icons/Trees_Lodge.svg" className="w-[100vw] absolute" alt= "Trees Lodge"></img>
         </div>
         <div className="pb-15">
           <Link href="/onboarding_2">

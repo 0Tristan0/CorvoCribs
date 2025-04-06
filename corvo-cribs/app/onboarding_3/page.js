@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Onboarding_3() {
   return (
     <div className="h-screen ">
-      <img src = "/icons/Background.svg" className="absolute w-full h-full object cover" alt= "Bakcground"></img>
+      <img src = "/icons/Background.svg" className="absolute w-full h-full object cover" alt= "Background"></img>
       <div className="relative z-10 flex flex-col items-center justify-center h-full gap-y-5  ">
         <h1 className="text-7xl font-semibold text-center">Corvo Cribs</h1>
         <div className="pb-15 relative">
