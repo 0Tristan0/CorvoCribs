@@ -1,5 +1,6 @@
 import { Jua } from "next/font/google";
 import "./globals.css";
+import Navbar from "./componenets/Navbar";
 
 const jua = Jua({
   weight: "400",
@@ -15,8 +16,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${jua.className} antialiased`}
+        className={ `${jua.className} antialiased m-3` }
       >
+        <Navbar />
         {children}
       </body>
     </html>
