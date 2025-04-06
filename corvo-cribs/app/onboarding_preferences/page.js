@@ -51,6 +51,10 @@ export default function Onboarding_1() {
     return `${remainingMinutes} min${remainingMinutes !== 1 ? "s" : ""}`;
   };
 
+  const finishOnboarding = () => {
+    localStorage.setItem("hasOnboarded", "true");
+  };
+
   return (
     <div className="flex flex-col items-center justify-between h-full">
       <button
@@ -183,8 +187,8 @@ export default function Onboarding_1() {
       </div>
 
       <div>
-        <Link href="\">
-          <button>
+        <Link href="/">
+          <button onClick={ () => finishOnboarding() }>
             <Image src="/icons/Arrow.svg" width={60} height={40}></Image>
           </button>
         </Link>
