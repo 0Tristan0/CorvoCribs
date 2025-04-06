@@ -23,7 +23,7 @@ const handleNavClick = (index) => {
 */
 
 // Temporary variable
-const isOnboarded = false;
+const isOnboarded = true;
 
 export default function RootLayout({ children }) {
   return (

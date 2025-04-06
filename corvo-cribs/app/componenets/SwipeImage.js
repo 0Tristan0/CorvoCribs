@@ -61,6 +61,141 @@ export default function SwipeImage() {
                 ]
             }
         },
+        {
+            "id": 4914,
+            "title": "1335 North",
+            "timePublished": "2023-08-20'T'13:20:10*633+0000",
+            "nearestUniversity": "Oregon State University",
+            "address": "",
+            "furnished": true,
+            "pricePerMonth": 1000,
+            "leaseTermLengthMonths": 12,
+            "bedrooms": 2,
+            "baths": 2,
+            "area": 1500,
+            "landlordID": 1234,
+            "images": {
+                "hero": "beavers/approving.png",
+                "exterior": [
+                    "https://abc.com/exterior.jpeg",
+                    "https://abc.com/exterior.jpeg",
+                    "https://abc.com/exterior.jpeg"
+                ],
+                "interior": [
+                    "https://abc.com/interior.jpeg",
+                    "https://abc.com/interior.jpeg",
+                    "https://abc.com/interior.jpeg"
+                ]
+            }
+        },
+        {
+            "id": 1111,
+            "title": "1335 North",
+            "timePublished": "2023-08-20'T'13:20:10*633+0000",
+            "nearestUniversity": "Oregon State University",
+            "address": "",
+            "furnished": true,
+            "pricePerMonth": 1000,
+            "leaseTermLengthMonths": 12,
+            "bedrooms": 2,
+            "baths": 2,
+            "area": 1500,
+            "landlordID": 1234,
+            "images": {
+                "hero": "beavers/approving.png",
+                "exterior": [
+                    "https://abc.com/exterior.jpeg",
+                    "https://abc.com/exterior.jpeg",
+                    "https://abc.com/exterior.jpeg"
+                ],
+                "interior": [
+                    "https://abc.com/interior.jpeg",
+                    "https://abc.com/interior.jpeg",
+                    "https://abc.com/interior.jpeg"
+                ]
+            }
+        },
+        {
+            "id": 2222,
+            "title": "1335 North",
+            "timePublished": "2023-08-20'T'13:20:10*633+0000",
+            "nearestUniversity": "Oregon State University",
+            "address": "",
+            "furnished": true,
+            "pricePerMonth": 1000,
+            "leaseTermLengthMonths": 12,
+            "bedrooms": 2,
+            "baths": 2,
+            "area": 1500,
+            "landlordID": 1234,
+            "images": {
+                "hero": "beavers/approving.png",
+                "exterior": [
+                    "https://abc.com/exterior.jpeg",
+                    "https://abc.com/exterior.jpeg",
+                    "https://abc.com/exterior.jpeg"
+                ],
+                "interior": [
+                    "https://abc.com/interior.jpeg",
+                    "https://abc.com/interior.jpeg",
+                    "https://abc.com/interior.jpeg"
+                ]
+            }
+        },
+        {
+            "id": 3333,
+            "title": "1335 North",
+            "timePublished": "2023-08-20'T'13:20:10*633+0000",
+            "nearestUniversity": "Oregon State University",
+            "address": "",
+            "furnished": true,
+            "pricePerMonth": 1000,
+            "leaseTermLengthMonths": 12,
+            "bedrooms": 2,
+            "baths": 2,
+            "area": 1500,
+            "landlordID": 1234,
+            "images": {
+                "hero": "beavers/approving.png",
+                "exterior": [
+                    "https://abc.com/exterior.jpeg",
+                    "https://abc.com/exterior.jpeg",
+                    "https://abc.com/exterior.jpeg"
+                ],
+                "interior": [
+                    "https://abc.com/interior.jpeg",
+                    "https://abc.com/interior.jpeg",
+                    "https://abc.com/interior.jpeg"
+                ]
+            }
+        },
+        {
+            "id": 4444,
+            "title": "1335 North",
+            "timePublished": "2023-08-20'T'13:20:10*633+0000",
+            "nearestUniversity": "Oregon State University",
+            "address": "",
+            "furnished": true,
+            "pricePerMonth": 1000,
+            "leaseTermLengthMonths": 12,
+            "bedrooms": 2,
+            "baths": 2,
+            "area": 1500,
+            "landlordID": 1234,
+            "images": {
+                "hero": "beavers/approving.png",
+                "exterior": [
+                    "https://abc.com/exterior.jpeg",
+                    "https://abc.com/exterior.jpeg",
+                    "https://abc.com/exterior.jpeg"
+                ],
+                "interior": [
+                    "https://abc.com/interior.jpeg",
+                    "https://abc.com/interior.jpeg",
+                    "https://abc.com/interior.jpeg"
+                ]
+            }
+        },
     ]
 
     const [currentIndex, setCurrentIndex] = useState(db.length - 1)
@@ -129,36 +264,37 @@ export default function SwipeImage() {
                     </TinderCard>
                 ))}
             </div>
-            
-            <div className='flex justify-center gap-x-5 mt-5'>
-                <button className={"p-2 rounded-xl border-2 bg-[#ECB29B] border-[#957264] " + (!canGoBack ? "opacity-20" : "opacity-100 ")}
-                    onClick={() => goBack()}>Undo swipe</button>
-                <button className="p-2 rounded-xl border-2 bg-[#F5E5AC]">
-                    <div className='flex flex-row items-center gap-x-2'>
-                        <div className='w-5 h-5 flex items-center justify-center'>
-                            <FavoritesIcon fill="#FFAC8B" />
-                        </div>
-                        <h1>Favorite</h1>
-                    </div>
-                </button>
-            </div>
 
-            <div className='mt-15 bg-[#F5E5AC] p-5 shadow-lg rounded-2xl'>
+            {db[currentIndex] !== undefined ? (
                 <div>
-                    <h1 className='truncate text-2xl font-semibold'>{db[currentIndex].title}</h1>
-                    <h1 className='text-xl pb-2'>${db[currentIndex].pricePerMonth}/mo.</h1>
-                    <h1 className='text-md uppercase'>{db[currentIndex].bedrooms} bedroom, {db[currentIndex].baths} bath</h1>
-                    <h1 className='text-md'>{db[currentIndex].area} square feet</h1>
-                    <div className='flex flex-row items-center gap-x-2'>
-                        <div className='w-5 h-5 flex items-center justify-center'>
-                            <MapIcon fill="#FACBCB" />
-                        </div>
-                        <h1>2 miles away</h1>
+                    <div className='flex justify-center gap-x-5 mt-5'>
+                        <button className={"p-2 rounded-xl border-2 bg-[#ECB29B] border-[#957264] " + (!canGoBack ? "opacity-20" : "opacity-100 ")}
+                            onClick={() => goBack()}>Undo swipe</button>
+                        <button className="p-2 rounded-xl border-2 bg-[#F5E5AC]">
+                            <div className='flex flex-row items-center gap-x-2'>
+                                <div className='w-5 h-5 flex items-center justify-center'>
+                                    <FavoritesIcon fill="#FFAC8B" />
+                                </div>
+                                <h1>Favorite</h1>
+                            </div>
+                        </button>
                     </div>
-                    
-
+                    <div className='mt-15 bg-[#F5E5AC] p-5 shadow-lg rounded-2xl'>
+                        <div>
+                            <h1 className='truncate text-2xl font-semibold'>{db[currentIndex].title}</h1>
+                            <h1 className='text-xl pb-2'>${db[currentIndex].pricePerMonth}/mo.</h1>
+                            <h1 className='text-md uppercase'>{db[currentIndex].bedrooms} bedroom, {db[currentIndex].baths} bath</h1>
+                            <h1 className='text-md'>{db[currentIndex].area} square feet</h1>
+                            <div className='flex flex-row items-center gap-x-2'>
+                                <div className='w-5 h-5 flex items-center justify-center'>
+                                    <MapIcon fill="#FACBCB" />
+                                </div>
+                                <h1>2 miles away</h1>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            ) : (null)}
         </div>
     )
 }
