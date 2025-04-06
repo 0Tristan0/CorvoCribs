@@ -14,26 +14,24 @@ export const metadata = {
   description: "Web app for Corvo Cribs.",
 };
 
-const isOnboarded = false;
+/*
+const [currentIndex, setCurrentIndex] = useState(2); // Default to Home
+
+const handleNavClick = (index) => {
+  setCurrentIndex(index);
+};
+*/
+
+// Temporary variable
+const isOnboarded = true;
 
 export default function RootLayout({ children }) {
-
-  if (!isOnboarded) {
-    return (
-      <html lang="en">
-        <body className={`${jua.className} antialiased m-3`}>
-          <Onboarding_1 />
-        </body>
-      </html>
-    );
-  }
-
   return (
     <html lang="en">
       <body
         className={`${jua.className} antialiased m-3`}
       >
-        <Navbar />
+        {isOnboarded ? ( <Navbar /> ) : (null)}
         {children}
       </body>
     </html>
