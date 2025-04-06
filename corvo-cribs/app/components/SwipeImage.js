@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo, useRef } from 'react'
+import React, { useState, useMemo, useRef, useEffect } from 'react'
 import TinderCard from 'react-tinder-card'
 import FavoritesIcon from './icons/FavoritesIcon';
 import MapIcon from './icons/MapIcon';
@@ -198,13 +198,33 @@ export default function SwipeImage() {
         },
     ]
 
+    const [dislikedIDs, setDislikedIDs] = useState([]);
+    const [favoritedIDs, setFavoritedIDs] = useState([]);
+    const [viewedIDs, setViewedIDs] = useState([]);
+
+    const [isFavorited, setIsFavorited] = useState(false);
+    
     useEffect(() => {
-        const dislikedIDs = localStorage.getItem('hasOnboarded')
-        if (hasOnboarded === null) {
-            localStorage.setItem('hasOnboarded', 'false')
-            setShouldShowOnboarding(true)
+        const localDislikedIDs = localStorage.getItem('dislikedIDs');
+        const localFavoritedIDs = localStorage.getItem('favoritedIDs');
+        const localViewedIDs = localStorage.getItem('viewedIDs');
+
+        if (localDislikedIDs === null) {
+            localStorage.setItem('dislikedIDs', '[]');
         } else {
-            setShouldShowOnboarding(hasOnboarded === 'false')
+            setDislikedIDs(JSON.parse(localDislikedIDs))
+        }
+
+        if (localFavoritedIDs === null) {
+            localStorage.setItem('favoritedIDs', '[]');
+        } else {
+            setFavoritedIDs(JSON.parse(localFavoritedIDs))
+        }
+
+        if (localViewedIDs === null) {
+            localStorage.setItem('viewedIDs', '[]');
+        } else {
+            setViewedIDs(JSON.parse(localViewedIDs))
         }
     }, []);
 
@@ -234,6 +254,16 @@ export default function SwipeImage() {
     const swiped = (direction, nameToDelete, index) => {
         setLastDirection(direction)
         updateCurrentIndex(index - 1)
+
+        setIsFavorited(false);
+
+        if (direction === "left") {
+            setDislikedIDs([...dislikedIDs, db[index].id])
+            localStorage.setItem('dislikedIDs', JSON.stringify([...dislikedIDs, db[index].id]));
+        } else if (direction === "right") {
+            setViewedIDs([...viewedIDs, db[index].id])
+            localStorage.setItem('viewedIDs', JSON.stringify([...viewedIDs, db[index].id]));
+        }
     }
 
     const outOfFrame = (name, idx) => {
@@ -259,6 +289,35 @@ export default function SwipeImage() {
         await childRefs[newIndex].current.restoreCard()
     }
 
+    const handleFavorite = () => {
+        if (isFavorited) {
+            setIsFavorited(false);
+            const updatedFavoritedIDs = favoritedIDs.filter(id => id !== db[currentIndex].id);
+            setFavoritedIDs(updatedFavoritedIDs);
+            localStorage.setItem('favoritedIDs', JSON.stringify(updatedFavoritedIDs));
+        } else {
+            setIsFavorited(true);
+            setFavoritedIDs([...favoritedIDs, db[currentIndex].id])
+            localStorage.setItem('favoritedIDs', JSON.stringify([...favoritedIDs, db[currentIndex].id]));
+        }
+    };
+
+    const handleUndo = () => {
+        if (lastDirection === "left") {
+            const updatedDislikedIDs = [...dislikedIDs];
+            updatedDislikedIDs.pop();
+            setDislikedIDs(updatedDislikedIDs);
+            localStorage.setItem('dislikedIDs', JSON.stringify(updatedDislikedIDs));
+        } else if (lastDirection === "right") {
+            const updatedViewedIDs = [...viewedIDs];
+            updatedViewedIDs.pop();
+            setViewedIDs(updatedViewedIDs);
+            localStorage.setItem('viewedIDs', JSON.stringify(updatedViewedIDs));
+        }
+
+        goBack();
+    };
+
     return (
         <div>
             <div className='flex flex-row justify-between items-center'>
@@ -283,8 +342,8 @@ export default function SwipeImage() {
                 <div>
                     <div className='flex justify-center gap-x-5 mt-4'>
                         <button className={"p-2 rounded-xl border-2 bg-[#ECB29B] border-[#957264] " + (!canGoBack ? "opacity-20" : "opacity-100 ")}
-                            onClick={() => goBack()}>Undo swipe</button>
-                        <button className="p-2 rounded-xl border-2 bg-[#F5E5AC]">
+                            onClick={() => handleUndo() }>Undo swipe</button>
+                        <button className={"p-2 rounded-xl border-2 " + (isFavorited ? "bg-[#e95757]" : "bg-[#F5E5AC]" )} onClick={() => handleFavorite() }>
                             <div className='flex flex-row items-center gap-x-2'>
                                 <div className='w-5 h-5 flex items-center justify-center'>
                                     <FavoritesIcon fill="#FFAC8B" />
