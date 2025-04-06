@@ -14,6 +14,5 @@ export default function Onboarding_3() {
           </Link>
         </div>
       </div>
-    </div>
   );
 }
