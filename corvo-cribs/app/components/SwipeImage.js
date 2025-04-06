@@ -5,206 +5,49 @@ import TinderCard from 'react-tinder-card'
 import FavoritesIcon from './icons/FavoritesIcon';
 import MapIcon from './icons/MapIcon';
 import ApartmentCard from './ApartmentCard';
+import axios from 'axios';
 
 export default function SwipeImage() {
-    const db = [
-        {
-            "id": 1234,
-            "title": "1335 North",
-            "timePublished": "2023-08-20'T'13:20:10*633+0000",
-            "nearestUniversity": "Oregon State University",
-            "address": "",
-            "furnished": true,
-            "pricePerMonth": 1000,
-            "leaseTermLengthMonths": 12,
-            "bedrooms": 2,
-            "baths": 2,
-            "area": 1500,
-            "landlordID": 1234,
-            "images": {
-                "hero": "beavers/approving.png",
-                "exterior": [
-                    "https://abc.com/exterior.jpeg",
-                    "https://abc.com/exterior.jpeg",
-                    "https://abc.com/exterior.jpeg"
-                ],
-                "interior": [
-                    "https://abc.com/interior.jpeg",
-                    "https://abc.com/interior.jpeg",
-                    "https://abc.com/interior.jpeg"
-                ]
+    const [db, setDb] = useState([]);
+
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        const fetchApartments = async () => {
+            try {
+                const response = await axios.get("http://localhost:8000/newApartments", {
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "Access-Control-Allow-Origin": "*",
+                        "Access-Control-Allow-Credentials": "true",
+                        "Access-Control-Allow-Methods": "GET,OPTIONS,PATCH,DELETE,POST,PUT",
+                        "Access-Control-Allow-Headers": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version"
+                    },
+                });
+
+                let currentDb = db;
+                currentDb.push(...response.data);
+                setDb(currentDb);
+
+                setLoading(false);
+            } catch (error) {
+                console.error("Error fetching apartments:", error);
+                setLoading(false);
             }
-        },
-        {
-            "id": 6969,
-            "title": "The Metropolitan",
-            "timePublished": "2023-08-20'T'13:20:10*633+0000",
-            "nearestUniversity": "Oregon State University",
-            "address": "",
-            "furnished": true,
-            "pricePerMonth": 1000,
-            "leaseTermLengthMonths": 12,
-            "bedrooms": 2,
-            "baths": 2,
-            "area": 1500,
-            "landlordID": 1234,
-            "images": {
-                "hero": "beavers/disapproving.png",
-                "exterior": [
-                    "https://abc.com/exterior.jpeg",
-                    "https://abc.com/exterior.jpeg",
-                    "https://abc.com/exterior.jpeg"
-                ],
-                "interior": [
-                    "https://abc.com/interior.jpeg",
-                    "https://abc.com/interior.jpeg",
-                    "https://abc.com/interior.jpeg"
-                ]
-            }
-        },
-        {
-            "id": 4914,
-            "title": "1335 North",
-            "timePublished": "2023-08-20'T'13:20:10*633+0000",
-            "nearestUniversity": "Oregon State University",
-            "address": "",
-            "furnished": true,
-            "pricePerMonth": 1000,
-            "leaseTermLengthMonths": 12,
-            "bedrooms": 2,
-            "baths": 2,
-            "area": 1500,
-            "landlordID": 1234,
-            "images": {
-                "hero": "beavers/approving.png",
-                "exterior": [
-                    "https://abc.com/exterior.jpeg",
-                    "https://abc.com/exterior.jpeg",
-                    "https://abc.com/exterior.jpeg"
-                ],
-                "interior": [
-                    "https://abc.com/interior.jpeg",
-                    "https://abc.com/interior.jpeg",
-                    "https://abc.com/interior.jpeg"
-                ]
-            }
-        },
-        {
-            "id": 1111,
-            "title": "1335 North",
-            "timePublished": "2023-08-20'T'13:20:10*633+0000",
-            "nearestUniversity": "Oregon State University",
-            "address": "",
-            "furnished": true,
-            "pricePerMonth": 1000,
-            "leaseTermLengthMonths": 12,
-            "bedrooms": 2,
-            "baths": 2,
-            "area": 1500,
-            "landlordID": 1234,
-            "images": {
-                "hero": "beavers/approving.png",
-                "exterior": [
-                    "https://abc.com/exterior.jpeg",
-                    "https://abc.com/exterior.jpeg",
-                    "https://abc.com/exterior.jpeg"
-                ],
-                "interior": [
-                    "https://abc.com/interior.jpeg",
-                    "https://abc.com/interior.jpeg",
-                    "https://abc.com/interior.jpeg"
-                ]
-            }
-        },
-        {
-            "id": 2222,
-            "title": "1335 North",
-            "timePublished": "2023-08-20'T'13:20:10*633+0000",
-            "nearestUniversity": "Oregon State University",
-            "address": "",
-            "furnished": true,
-            "pricePerMonth": 1000,
-            "leaseTermLengthMonths": 12,
-            "bedrooms": 2,
-            "baths": 2,
-            "area": 1500,
-            "landlordID": 1234,
-            "images": {
-                "hero": "beavers/approving.png",
-                "exterior": [
-                    "https://abc.com/exterior.jpeg",
-                    "https://abc.com/exterior.jpeg",
-                    "https://abc.com/exterior.jpeg"
-                ],
-                "interior": [
-                    "https://abc.com/interior.jpeg",
-                    "https://abc.com/interior.jpeg",
-                    "https://abc.com/interior.jpeg"
-                ]
-            }
-        },
-        {
-            "id": 3333,
-            "title": "1335 North",
-            "timePublished": "2023-08-20'T'13:20:10*633+0000",
-            "nearestUniversity": "Oregon State University",
-            "address": "",
-            "furnished": true,
-            "pricePerMonth": 1000,
-            "leaseTermLengthMonths": 12,
-            "bedrooms": 2,
-            "baths": 2,
-            "area": 1500,
-            "landlordID": 1234,
-            "images": {
-                "hero": "beavers/approving.png",
-                "exterior": [
-                    "https://abc.com/exterior.jpeg",
-                    "https://abc.com/exterior.jpeg",
-                    "https://abc.com/exterior.jpeg"
-                ],
-                "interior": [
-                    "https://abc.com/interior.jpeg",
-                    "https://abc.com/interior.jpeg",
-                    "https://abc.com/interior.jpeg"
-                ]
-            }
-        },
-        {
-            "id": 4444,
-            "title": "1335 North",
-            "timePublished": "2023-08-20'T'13:20:10*633+0000",
-            "nearestUniversity": "Oregon State University",
-            "address": "",
-            "furnished": true,
-            "pricePerMonth": 1000,
-            "leaseTermLengthMonths": 12,
-            "bedrooms": 2,
-            "baths": 2,
-            "area": 1500,
-            "landlordID": 1234,
-            "images": {
-                "hero": "beavers/approving.png",
-                "exterior": [
-                    "https://abc.com/exterior.jpeg",
-                    "https://abc.com/exterior.jpeg",
-                    "https://abc.com/exterior.jpeg"
-                ],
-                "interior": [
-                    "https://abc.com/interior.jpeg",
-                    "https://abc.com/interior.jpeg",
-                    "https://abc.com/interior.jpeg"
-                ]
-            }
-        },
-    ]
+        };
+
+        fetchApartments();
+    }, []);
+
+    console.log(db);
 
     const [dislikedIDs, setDislikedIDs] = useState([]);
     const [favoritedIDs, setFavoritedIDs] = useState([]);
     const [viewedIDs, setViewedIDs] = useState([]);
 
     const [isFavorited, setIsFavorited] = useState(false);
-    
+
     useEffect(() => {
         const localDislikedIDs = localStorage.getItem('dislikedIDs');
         const localFavoritedIDs = localStorage.getItem('favoritedIDs');
@@ -332,7 +175,15 @@ export default function SwipeImage() {
                             onSwipe={(dir) => swiped(dir, character.name, index)}
                             onCardLeftScreen={() => outOfFrame(character.name, index)}
                         >
-                            <div className="shadow-md border-8 border-white relative w-[80vw] max-w-[320px] h-[300px] rounded-2xl bg-cover" style={{ backgroundImage: 'url(' + character.images.hero + ')' }} />
+                            <div className="shadow-md border-8 border-white relative w-[80vw] max-w-[320px] h-[300px] rounded-2xl bg-cover" style={{ backgroundImage: 'url(' + character.images.hero + ')' }}>
+                                <div role="status" className={"absolute " + (loading ? "opacity-100" : "opacity-0")}>
+                                    <svg aria-hidden="true" className="w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="currentColor" />
+                                        <path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z" fill="currentFill" />
+                                    </svg>
+                                    <span className="sr-only">Loading...</span>
+                                </div>
+                            </div>
                         </TinderCard>
                     ))}
                 </div>
@@ -343,8 +194,8 @@ export default function SwipeImage() {
                 <div>
                     <div className='flex justify-center gap-x-5 mt-4'>
                         <button className={"p-2 rounded-xl border-2 bg-[#ECB29B] border-[#957264] " + (!canGoBack ? "opacity-20" : "opacity-100 ")}
-                            onClick={() => handleUndo() }>Undo swipe</button>
-                        <button className={"p-2 rounded-xl border-2 " + (isFavorited ? "bg-[#e95757]" : "bg-[#F5E5AC]" )} onClick={() => handleFavorite() }>
+                            onClick={() => handleUndo()}>Undo swipe</button>
+                        <button className={"p-2 rounded-xl border-2 " + (isFavorited ? "bg-[#e95757]" : "bg-[#F5E5AC]")} onClick={() => handleFavorite()}>
                             <div className='flex flex-row items-center gap-x-2'>
                                 <div className='w-5 h-5 flex items-center justify-center'>
                                     <FavoritesIcon fill="#FFAC8B" />
@@ -353,7 +204,7 @@ export default function SwipeImage() {
                             </div>
                         </button>
                     </div>
-                <ApartmentCard title={db[currentIndex].title} pricePerMonth={db[currentIndex].pricePerMonth} beds={db[currentIndex].bedrooms} baths={db[currentIndex].baths} area={db[currentIndex].area} distance={2.5} imageUrl={`/${db[currentIndex].images.hero}`} thumbnail={true} />
+                    <ApartmentCard title={db[currentIndex].title} address={db[currentIndex].address} pricePerMonth={db[currentIndex].pricePerMonth} beds={db[currentIndex].bedrooms} baths={db[currentIndex].baths} area={db[currentIndex].area} distance={2.5} imageUrl={db[currentIndex].images.hero} thumbnail={true} />
 
                 </div>
             ) : (null)}

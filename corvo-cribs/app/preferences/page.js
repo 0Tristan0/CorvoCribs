@@ -161,7 +161,7 @@ export default function Preferences() {
         <div className="mt-10 flex flex-col items-center justify-between h-full">
             <button
                 onClick={() => handleFurnishedChange({ target: { value: !isFurnished } })}
-                className={`text-white font-bold text-2xl py-2 px-4 rounded w-64 h-16 mb-8 ${isFurnished ? "bg-[#69554D]" : "bg-[#AB8C80]"
+                className={`text-white font-bold text-2xl py-2 px-4 rounded w-64 h-16 mb-8 ${isFurnished ? "bg-[#69554D]" : "bg-[#6dbe75]"
                     }`}
             >
                 Furnished
