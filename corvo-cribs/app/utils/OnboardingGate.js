@@ -1,20 +1,29 @@
-"use client";
+'use client'
 
 import { useEffect, useState } from 'react'
+import { usePathname } from 'next/navigation'
 import Onboarding_1 from '../onboarding_1/page';
 
 export default function OnboardingGate({ children }) {
   const [shouldShowOnboarding, setShouldShowOnboarding] = useState(null);
+  const pathname = usePathname();
+
+  const checkOnboardingStatus = () => {
+    const hasOnboarded = localStorage.getItem('hasOnboarded');
+    setShouldShowOnboarding(hasOnboarded === 'false');
+  }
 
   useEffect(() => {
-    const hasOnboarded = localStorage.getItem('hasOnboarded')
-    if (hasOnboarded === null) {
-      localStorage.setItem('hasOnboarded', 'false')
-      setShouldShowOnboarding(true)
-    } else {
-      setShouldShowOnboarding(hasOnboarded === 'false')
-    }
-  }, [])
+    checkOnboardingStatus();
+
+    // Optional: Listen for localStorage updates from other tabs
+    const handleStorage = () => checkOnboardingStatus();
+    window.addEventListener('storage', handleStorage);
+
+    return () => {
+      window.removeEventListener('storage', handleStorage);
+    };
+  }, []);
 
   if (shouldShowOnboarding === null) {
     return (
@@ -24,7 +33,14 @@ export default function OnboardingGate({ children }) {
     )
   }
 
-  if (shouldShowOnboarding) {
+  const onboardingRoutes = [
+    '/onboarding_1',
+    '/onboarding_2',
+    '/onboarding_3',
+    '/onboarding_preferences'
+  ]
+
+  if (shouldShowOnboarding && !onboardingRoutes.includes(pathname)) {
     return <Onboarding_1 />
   }
 
