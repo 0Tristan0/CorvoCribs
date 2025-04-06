@@ -40,8 +40,6 @@ export default function SwipeImage() {
         fetchApartments();
     }, []);
 
-    console.log(db);
-
     const [dislikedIDs, setDislikedIDs] = useState([]);
     const [favoritedIDs, setFavoritedIDs] = useState([]);
     const [viewedIDs, setViewedIDs] = useState([]);
