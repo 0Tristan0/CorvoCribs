@@ -16,6 +16,3 @@ export default function Onboarding_3() {
       </div>
   );
 }
-
-
-

@@ -30,12 +30,33 @@ export default function Preferences() {
     const [publicTransportation, setpublicTransportation] = useState(0);
 
     const handleBedroomsChange = (event) => {
-        setBedrooms(event.target.value);
-        if (bedrooms < 0) {
-            setBedrooms = 0;
-        } else if (bedrooms > 10) {
-            setBedrooms = 10;
+        if (bedrooms < 10 && bedrooms > 0) {
+            setBedrooms(event.target.value);
         }
+
+        if (event.target.value < 0 && event.target.value > 10) {
+            setBedrooms(1);
+        }
+
+        if (event.target.value > 10 && event.target.value < 0) {
+            setBedrooms(10);
+        }
+    };
+
+    const handleBathroomsChange = (event) => {
+        if (bathrooms < 10 && bathrooms > 0) {
+            setBathrooms(event.target.value);
+        }
+        if (event.target.value < 0 && event.target.value > 10) {
+            setBathrooms(1);
+        }
+        if (event.target.value > 10 && event.target.value < 0) {
+            setBathrooms(10);
+        }
+    }
+
+    const handleFurnishedChange = (event) => {
+        setIsFurnished(event.target.value);
     };
 
     const handlePriceChange = (event) => {
@@ -75,7 +96,7 @@ export default function Preferences() {
     return (
         <div className="mt-10 flex flex-col items-center justify-between h-full">
             <button
-                onClick={() => setIsFurnished((prevState) => !prevState)}
+                onClick={() => handleFurnishedChange({ target: { value: !isFurnished } })}
                 className={`text-white font-bold text-2xl py-2 px-4 rounded w-64 h-16 mb-8 ${isFurnished ? "bg-[#69554D]" : "bg-[#AB8C80]"
                     }`}
             >
@@ -87,14 +108,14 @@ export default function Preferences() {
                 }
             >
                 <button
-                    onClick={() => setBedrooms(bedrooms + 1)}
+                    onClick={() => handleBedroomsChange({ target: { value: bedrooms + 1 } })}
                     className="flex items-center "
                 >
                     <Image src="/icons/+.svg" width={24} height={24} alt="plus"></Image>
                 </button>
                 Bedrooms: {bedrooms}{" "}
                 <button
-                    onClick={() => setBedrooms(bedrooms - 1)}
+                    onClick={() => handleBedroomsChange({ target: { value: bedrooms - 1 } })}
                     className="flex items-center "
                 >
                     <Image src="/icons/Minus.svg" width={24} height={24} alt="minus"></Image>
@@ -107,14 +128,14 @@ export default function Preferences() {
                 }
             >
                 <button
-                    onClick={() => setBathrooms(bathrooms + 1)}
+                    onClick={() => handleBathroomsChange({ target: { value: bathrooms + 1 } })}
                     className="flex items-center "
                 >
                     <Image src="/icons/+.svg" width={24} height={24} alt="plus"></Image>
                 </button>
                 Bathrooms: {bathrooms}{" "}
                 <button
-                    onClick={() => setBathrooms(bathrooms - 1)}
+                    onClick={() => handleBathroomsChange({ target: { value: bathrooms - 1 } })}
                     className="flex items-center "
                 >
                     <Image src="/icons/Minus.svg" width={24} height={24} alt="minus"></Image>
@@ -188,7 +209,7 @@ export default function Preferences() {
 
             <div className="flex flex-col items-center w-64 mb-8">
                 <label htmlFor="public" className="text-.5xl font-semibold mb-2">
-                    Public trasportation: {formatTime(publicTransportation)}
+                    Public transportation: {formatTime(publicTransportation)}
                 </label>
                 <input
                     type="range"
