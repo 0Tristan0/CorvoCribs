@@ -13,7 +13,11 @@ export default function Onboarding_3() {
             <h1 className="text-center pb-5">All ORIGINAL artwork made by Ally Chen</h1>
           <Link href="/preferences">
             <button className="bg-[#69554D] hover:bg-[#29201D] text-white text-2xl py-2 px-4 rounded w-60 h-15 mb-15">
+<<<<<<< HEAD
               Let's start!
+=======
+              Lets get started!
+>>>>>>> c1f48338e83a46ee15fc31a3dad4693ad9f177e8
             </button>
           </Link>
         </div>
