@@ -36,11 +36,34 @@ export default function OnboardingGate({ children }) {
     }, 100)
 
     if (shouldShowOnboarding) {
-        if (pathname !== '/onboarding_1' && pathname !== '/onboarding_2' && pathname !== '/onboarding_3' && pathname !== '/onboarding_preferences') {
+        if (pathname !== '/onboarding_1' && pathname !== '/onboarding_2' && pathname !== '/onboarding_3' && pathname !== '/preferences') {
             return <Onboarding_1 />
         } else {
             return <>{children}</>
         }
+    }
+
+    if (pathname === '/preferences') {
+        return (<>
+            <Navbar currentIndex={0} />
+            {children}
+        </>);
+    } else if (pathname === '/map') {
+        return (<>
+            <Navbar currentIndex={1} />
+            {children}
+        </>);
+    }
+    else if (pathname === '/') {
+        return (<>
+            <Navbar currentIndex={2} />
+            {children}
+        </>);
+    } else if (pathname === '/favorites') {
+        return (<>
+            <Navbar currentIndex={3} />
+            {children}
+        </>);
     }
 
     return (<><Navbar />

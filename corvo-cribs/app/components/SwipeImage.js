@@ -4,6 +4,7 @@ import React, { useState, useMemo, useRef, useEffect } from 'react'
 import TinderCard from 'react-tinder-card'
 import FavoritesIcon from './icons/FavoritesIcon';
 import MapIcon from './icons/MapIcon';
+import ApartmentCard from './ApartmentCard';
 
 export default function SwipeImage() {
     const db = [
@@ -352,20 +353,8 @@ export default function SwipeImage() {
                             </div>
                         </button>
                     </div>
-                    <div className='mt-5 bg-[#F5E5AC] p-5 shadow-lg rounded-2xl'>
-                        <div>
-                            <h1 className='truncate text-2xl font-semibold'>{db[currentIndex].title}</h1>
-                            <h1 className='text-xl pb-2'>${db[currentIndex].pricePerMonth}/mo.</h1>
-                            <h1 className='text-md uppercase'>{db[currentIndex].bedrooms} bedroom, {db[currentIndex].baths} bath</h1>
-                            <h1 className='text-md'>{db[currentIndex].area} square feet</h1>
-                            <div className='flex flex-row items-center gap-x-2'>
-                                <div className='w-5 h-5 flex items-center justify-center'>
-                                    <MapIcon fill="#FACBCB" />
-                                </div>
-                                <h1>2 miles away</h1>
-                            </div>
-                        </div>
-                    </div>
+                <ApartmentCard title={db[currentIndex].title} pricePerMonth={db[currentIndex].pricePerMonth} beds={db[currentIndex].bedrooms} baths={db[currentIndex].baths} area={db[currentIndex].area} distance={2.5} imageUrl={`/${db[currentIndex].images.hero}`} thumbnail={true} />
+
                 </div>
             ) : (null)}
         </div>
