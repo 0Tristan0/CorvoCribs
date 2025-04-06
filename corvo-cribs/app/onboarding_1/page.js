@@ -12,7 +12,7 @@ export default function Onboarding_1() {
           <img src="/beavers/Beaver-Lodge.PNG" className=" max-w-[300px] w-[80vw] absolute z-10" alt="Beaver Lodge"></img>
           <img src="/icons/Trees_Lodge.svg" className="max-w-[350px] w-[100vw] absolute" alt= "Trees Lodge"></img>
         </div>
-        <div className="pb-20">
+        <div className="mb-25">
           <Link href="/onboarding_2">
             <button className="bg-[#69554D] hover:bg-[#29201D] text-white text-2xl  py-2 px-4 rounded w-60 h-15">
               Yes!
