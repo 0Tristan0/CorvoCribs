@@ -12,7 +12,7 @@ export default function Onboarding_3() {
         <div className="pb-20">
           <Link href="/preferences">
             <button className="bg-[#69554D] hover:bg-[#29201D] text-white text-2xl py-2 px-4 rounded w-60 h-15 mb-15">
-              Yes!
+              Lets get started!
             </button>
           </Link>
         </div>
