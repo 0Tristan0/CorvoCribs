@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Navbar({ currentIndex = 2 }) {
     return (
         <div>
-            <nav className="flex items-center justify-between flex-wrap p-6">
+            <nav className="flex items-center justify-between flex-wrap px-5 py-2">
                 <Link href="/preferences">
                     <PreferencesIcon fill={(currentIndex == 0 ? "#D2D2D2" : "#F5E5AC")} className="h-10 w-auto" />
                 </Link>

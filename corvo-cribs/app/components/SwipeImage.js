@@ -251,23 +251,27 @@ export default function SwipeImage() {
 
     return (
         <div>
-            <div className='w-[95vw] max-w-[260px] h-[300px] flex justify-center'>
-                {db.map((character, index) => (
-                    <TinderCard
-                        ref={childRefs[index]}
-                        className="absolute"
-                        key={character.id}
-                        onSwipe={(dir) => swiped(dir, character.name, index)}
-                        onCardLeftScreen={() => outOfFrame(character.name, index)}
-                    >
-                        <div className="shadow-md border-8 border-white relative w-[100vw] max-w-[320px] h-[300px] rounded-2xl bg-cover" style={{ backgroundImage: 'url(' + character.images.hero + ')' }} />
-                    </TinderCard>
-                ))}
+            <div className='flex flex-row justify-between items-center'>
+                <div className={'w-10 h-[25vh] rounded-4xl bg-red-300 ' + (db[currentIndex] !== undefined ? "" : "opacity-0")} />
+                <div className='w-[90vw] max-w-[260px] h-[300px] flex justify-center'>
+                    {db.map((character, index) => (
+                        <TinderCard
+                            ref={childRefs[index]}
+                            className="absolute"
+                            key={character.id}
+                            onSwipe={(dir) => swiped(dir, character.name, index)}
+                            onCardLeftScreen={() => outOfFrame(character.name, index)}
+                        >
+                            <div className="shadow-md border-8 border-white relative w-[80vw] max-w-[320px] h-[300px] rounded-2xl bg-cover" style={{ backgroundImage: 'url(' + character.images.hero + ')' }} />
+                        </TinderCard>
+                    ))}
+                </div>
+                <div className={'w-10 h-[25vh] rounded-4xl bg-green-300 ' + (db[currentIndex] !== undefined ? "" : "opacity-0")} />
             </div>
 
             {db[currentIndex] !== undefined ? (
                 <div>
-                    <div className='flex justify-center gap-x-5 mt-5'>
+                    <div className='flex justify-center gap-x-5 mt-4'>
                         <button className={"p-2 rounded-xl border-2 bg-[#ECB29B] border-[#957264] " + (!canGoBack ? "opacity-20" : "opacity-100 ")}
                             onClick={() => goBack()}>Undo swipe</button>
                         <button className="p-2 rounded-xl border-2 bg-[#F5E5AC]">
@@ -279,7 +283,7 @@ export default function SwipeImage() {
                             </div>
                         </button>
                     </div>
-                    <div className='mt-15 bg-[#F5E5AC] p-5 shadow-lg rounded-2xl'>
+                    <div className='mt-5 bg-[#F5E5AC] p-5 shadow-lg rounded-2xl'>
                         <div>
                             <h1 className='truncate text-2xl font-semibold'>{db[currentIndex].title}</h1>
                             <h1 className='text-xl pb-2'>${db[currentIndex].pricePerMonth}/mo.</h1>

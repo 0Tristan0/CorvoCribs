@@ -1,7 +1,7 @@
 import { Jua } from "next/font/google";
 import "./globals.css";
 
-import Navbar from "./componenets/Navbar";
+import Navbar from "./components/Navbar";
 import Onboarding_1 from "./onboarding_1/page";
 
 const jua = Jua({
