@@ -78,14 +78,14 @@ export default function Onboarding_1() {
           onClick={() => setBedrooms(bedrooms + 1)}
           className="flex items-center "
         >
-          <Image src="/icons/+.svg" width={24} height={24}></Image>
+          <Image src="/icons/+.svg" width={24} height={24}  alt = "plus"></Image>
         </button>
         Bedrooms: {bedrooms}{" "}
         <button
           onClick={() => setBedrooms(bedrooms - 1)}
           className="flex items-center "
         >
-          <Image src="/icons/Minus.svg" width={24} height={24}></Image>
+          <Image src="/icons/Minus.svg" width={24} height={24}  alt = "minus"></Image>
         </button>
       </div>
 
@@ -98,14 +98,14 @@ export default function Onboarding_1() {
           onClick={() => setBathrooms(bathrooms + 1)}
           className="flex items-center "
         >
-          <Image src="/icons/+.svg" width={24} height={24}></Image>
+          <Image src="/icons/+.svg" width={24} height={24}  alt = "plus"></Image>
         </button>
         Bathrooms: {bathrooms}{" "}
         <button
           onClick={() => setBathrooms(bathrooms - 1)}
           className="flex items-center "
         >
-          <Image src="/icons/Minus.svg" width={24} height={24}></Image>
+          <Image src="/icons/Minus.svg" width={24} height={24}  alt = "minus"></Image>
         </button>
       </div>
 
@@ -193,7 +193,7 @@ export default function Onboarding_1() {
       <div>
         <Link href="/">
           <button onClick={ () => finishOnboarding() }>
-            <Image src="/icons/Arrow.svg" width={60} height={40}></Image>
+            <Image src="/icons/Arrow.svg" width={60} height={40} alt = "arrow"></Image>
           </button>
         </Link>
       </div>
