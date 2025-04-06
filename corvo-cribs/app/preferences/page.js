@@ -50,7 +50,12 @@ export default function Preferences() {
             setBedrooms(10);
         }
 
-        localStorage.setItem("")
+        const preferences = JSON.parse(localStorage.getItem("preferences"));
+        const newPreferences = {
+            ...preferences,
+            bedrooms: event.target.value
+        };
+        localStorage.setItem("preferences", JSON.stringify(newPreferences));
     };
 
     const handleBathroomsChange = (event) => {
@@ -63,29 +68,78 @@ export default function Preferences() {
         if (event.target.value > 10 && event.target.value < 0) {
             setBathrooms(10);
         }
+
+        const preferences = JSON.parse(localStorage.getItem("preferences"));
+        const newPreferences = {
+            ...preferences,
+            bathrooms: event.target.value
+        };
+        localStorage.setItem("preferences", JSON.stringify(newPreferences));
     }
 
     const handleFurnishedChange = (event) => {
         setIsFurnished(event.target.value);
+
+        const preferences = JSON.parse(localStorage.getItem("preferences"));
+        const newPreferences = {
+            ...preferences,
+            furnished: event.target.value
+        };
+        localStorage.setItem("preferences", JSON.stringify(newPreferences));
     };
 
     const handlePriceChange = (event) => {
         setPrice(event.target.value);
+
+        const preferences = JSON.parse(localStorage.getItem("preferences"));
+        const newPreferences = {
+            ...preferences,
+            price: event.target.value
+        };
+        localStorage.setItem("preferences", JSON.stringify(newPreferences));
     };
     const handleLeaseTermChange = (event) => {
         setTerm(event.target.value);
+
+        const preferences = JSON.parse(localStorage.getItem("preferences"));
+        const newPreferences = {
+            ...preferences,
+            leaseTerm: event.target.value
+        };
+        localStorage.setItem("preferences", JSON.stringify(newPreferences));
     };
 
     const handleWalkChange = (event) => {
         setWalk(event.target.value);
+
+        const preferences = JSON.parse(localStorage.getItem("preferences"));
+        const newPreferences = {
+            ...preferences,
+            walk: event.target.value
+        };
+        localStorage.setItem("preferences", JSON.stringify(newPreferences));
     };
 
     const handleBikeChange = (event) => {
         setBike(event.target.value);
+
+        const preferences = JSON.parse(localStorage.getItem("preferences"));
+        const newPreferences = {
+            ...preferences,
+            bike: event.target.value
+        };
+        localStorage.setItem("preferences", JSON.stringify(newPreferences));
     };
 
     const handlePublicTransportationChange = (event) => {
         setpublicTransportation(event.target.value);
+
+        const preferences = JSON.parse(localStorage.getItem("preferences"));
+        const newPreferences = {
+            ...preferences,
+            publicTransportation: event.target.value
+        };
+        localStorage.setItem("preferences", JSON.stringify(newPreferences));
     };
 
     const formatTime = (minutes) => {
