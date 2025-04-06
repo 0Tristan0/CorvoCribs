@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { randomUUID } from 'crypto';
-// import cheerio from 'cheerio';
 
 let currentPage = 2;
 let mapBounds = {

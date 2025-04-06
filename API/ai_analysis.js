@@ -1,5 +1,4 @@
 import dotenv from 'dotenv';
-import axios from 'axios';
 import Groq from "groq-sdk";
 
 dotenv.config();
